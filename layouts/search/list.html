@@ -1,0 +1,37 @@
+{{ define "main" }}
+
+<!-- page-title -->
+<section class="section bg-secondary">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h4>{{.Title}}</h4>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /page-title -->
+
+<!-- search result -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        <div id="search-results"></div>
+        <script id="search-result-template" type="text/x-js-template">
+          <ul class="search-result list-unstyled" id="summary-${key}">
+            <li class="border-bottom mb-4 pb-3">
+              <h4><a class="text-dark" href="${link}">${title}</a></h4>
+              <p>${snippet}</p>
+              ${ isset tags }<p>Tags: ${tags}</p>${ end }
+              ${ isset categories }<p>Categories: ${categories}</p>${ end }
+            </li>
+          </ul>
+        </script>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /search result -->
+
+{{ end }}

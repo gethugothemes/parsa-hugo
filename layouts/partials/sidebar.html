@@ -1,0 +1,49 @@
+<div class="col-lg-4">
+  <div class="widget search-box">
+    <form action="{{ .Site.BaseURL }}/search">
+      <i class="ti-search"></i>
+      <input class="form-control border-0 pl-5" type="search" placeholder="Search" id="search-query" name="s">
+    </form>
+  </div>
+  <div class="widget">
+    <h6 class="mb-4">LATEST POST</h6>
+    {{ range first 3 ( where .Site.Pages "Type" "post") }}
+    <div class="media mb-4">
+      <div class="post-thumb-sm mr-3">
+        <a href="{{ .Permalink }}"><img class="mr-3 post-thumb-sm" src="{{ .Params.Image | absURL }}"></a>
+      </div>
+      <div class="media-body">
+        <ul class="list-inline d-flex justify-content-between mb-2">
+          <li class="list-inline-item">Post By {{.Site.Params.author}}</li>
+          <li class="list-inline-item">{{ .PublishDate.Format "Jan 02, 2006" }}</li>
+        </ul>
+        <h6><a class="text-dark" href="{{ .Permalink }}">{{.Title}}</a></h6>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+  <div class="widget">
+    <h6 class="mb-4">TAG</h6>
+    {{- if isset .Site.Taxonomies "tags" }}
+    {{- if not (eq (len .Site.Taxonomies.tags) 0) }}
+    <ul class="list-inline tag-list">
+      {{- range $name, $items := .Site.Taxonomies.tags }}
+      <li class="list-inline-item m-1"><a href="{{ "tags/" | relLangURL }}{{ $name | urlize | lower }}">{{ $name | humanize }}</a></li>
+      {{- end }}
+    </ul>
+    {{- end }}
+    {{- end }}
+  </div>
+  <div class="widget">
+    <h6 class="mb-4">CATEGORIES</h6>
+    {{- if isset .Site.Taxonomies "categories" }}
+    {{- if not (eq (len .Site.Taxonomies.categories) 0) }}
+    <ul class="list-inline tag-list">
+      {{- range $name, $items := .Site.Taxonomies.categories }}
+      <li class="list-inline-item m-1"><a href="{{ "categories/" | relLangURL }}{{ $name | urlize | lower }}">{{ $name | title | humanize }}</a></li>
+      {{- end }}
+    </ul>
+    {{- end }}
+    {{- end }}
+  </div>
+</div>

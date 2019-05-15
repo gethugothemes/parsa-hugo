@@ -1,0 +1,18 @@
+{{ define "main" }}
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h2 class="mb-4">{{.Title }}</h2>
+        <img src="{{.Params.Image | absURL }}" alt="{{.Site.Params.author}}" class="img-fluid w-100 mb-4">
+        <h3 class="font-weight-light">Hello, I’m <span class="font-weight-bold">{{.Site.Params.author}}</span></h3>
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+</section>
+
+{{partial "instafeed.html" . }}
+
+{{ end }}

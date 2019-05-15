@@ -1,0 +1,10 @@
+{{ if .Site.Params.instafeed.enable }}
+<!-- instagram -->
+<section>
+  <div class="container-fluid px-0">
+    <div class="row no-gutters instagram-slider" id="instafeed" data-userId="{{.Site.Params.instafeed.userID}}"
+      data-accessToken="{{.Site.Params.instafeed.accessToken}}"></div>
+  </div>
+</section>
+<!-- /instagram -->
+{{ end }}

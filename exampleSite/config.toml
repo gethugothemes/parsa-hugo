@@ -1,0 +1,129 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Parsa | Personal Blog Template"
+theme = "parsa-hugo"
+summaryLength = "10"
+paginate = 6
+
+[outputs]
+  home = ["HTML", "AMP", "RSS", "JSON"]
+  page = ["HTML"]
+
+# Plugins
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "plugins/bootstrap/bootstrap.min.css"
+  [[params.plugins.css]]
+  URL = "plugins/slick/slick.css"
+  [[params.plugins.css]]
+  URL = "plugins/themify-icons/themify-icons.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "plugins/jQuery/jquery.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/bootstrap/bootstrap.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/slick/slick.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/headroom/headroom.js"
+  [[params.plugins.js]]
+  URL = "plugins/instafeed/instafeed.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/masonry/masonry.js"
+  [[params.plugins.js]]
+  URL = "plugins/reading-time/readingTime.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/smooth-scroll/smooth-scroll.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/fuse.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/mark.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/search.js"
+  
+
+  
+# navigation
+[menu]
+    
+  [[menu.main]]
+  name = "About"
+  URL = "about"
+  weight = 2
+  
+  [[menu.main]]
+  name = "Contact"
+  URL = "contact"
+  weight = 3
+
+
+[params]
+logo = "images/logo.png"
+home = "Home"
+# hompage layout ( two layout is available,  you can set the another layout by change the value of homeLayoutToggle "true" to "false")
+homeLayoutToggle = true
+# Meta data
+description = "This is meta description"
+# about author
+author = "Themefisher"
+authorImage = "images/banner-img.png"
+shortDescription = "I’m a Freelance Interactive Art Director based in France. Focusing across branding and identity, digital and print."
+# Contact Form Action
+contactFormAction = "#"
+# Google Analitycs
+googleAnalitycsID = "Your ID"
+# copyright
+copyright = "a theme by [themefisher.com](themefisher.com)"
+
+  # Preloader
+  [params.preloader]
+  enable = true
+  
+  # search
+  [params.search]
+  enable = true
+
+  # Instagram feed
+  [params.instafeed]
+  enable = true
+  userID = "4044026246"
+  accessToken = "4044026246.1677ed0.8896752506ed4402a0519d23b8f50a17"
+
+  # footer
+  [params.footer]
+
+    #address
+    [[params.footer.addresses]]
+    address = "Sydney"
+    
+    [[params.footer.addresses]]
+    address = "6 rip carl Avenue CA 90733"
+
+    
+    #contact information
+    [[params.footer.contacts]]
+    contactInfo = "Tel: +90 000 333 22"
+    
+    [[params.footer.contacts]]
+    contactInfo = "Mail: exmaple@ymail.com"
+
+
+  # social site
+  [[params.social]]
+  icon = "ti-facebook"
+  URL = "#"
+  
+  [[params.social]]
+  icon = "ti-twitter-alt"
+  URL = "#"
+  
+  [[params.social]]
+  icon = "ti-linkedin"
+  URL = "#"
+  
+  [[params.social]]
+  icon = "ti-github"
+  URL = "#"
