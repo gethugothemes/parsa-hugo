@@ -3,13 +3,10 @@
   <h1><a href="https://themefisher.com/" target="_blank" rel="noopener noreferrer">Parsa Hugo Template(MIT License)</a>
   </h1>
 
-  <a href="https://img.shields.io/github/stars/themefisher/parsa-hugo-personal-blog-theme.svg?color="
-    brightgreen"&style=flat-square">GitHub stars</a>
-  <a href="https://img.shields.io/github/forks/themefisher/parsa-hugo-personal-blog-theme.svg?color="
-    success"&style=flat-square">GitHub forks</a>
-  <a href="https://img.shields.io/github/issues-closed-raw/themefisher/parsa-hugo-personal-blog-theme.svg?color="
-    orange"&style=flat-square">GitHub issues closed</a>
-  <a href="https://img.shields.io/badge/license-MIT-blue.svg?&style=flat-square">license</a>
+<p><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/70647bf629c186906fe00a617a50946bfaecd6aa/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f7468656d656669736865722f6b726f73732d6875676f2d706f7274666f6c696f2d74656d706c6174652e7376673f636f6c6f723d253232627269676874677265656e253232267374796c653d666c61742d737175617265"><img src="https://camo.githubusercontent.com/70647bf629c186906fe00a617a50946bfaecd6aa/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f7468656d656669736865722f6b726f73732d6875676f2d706f7274666f6c696f2d74656d706c6174652e7376673f636f6c6f723d253232627269676874677265656e253232267374796c653d666c61742d737175617265" alt="GitHub stars" data-canonical-src="https://img.shields.io/github/stars/themefisher/parsa-hugo-personal-blog-theme.svg?color=%22brightgreen%22&amp;style=flat-square" style="max-width:100%;"></a>
+<a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/681bb16b34f1f1bd8f1f39a7eee31a977147c273/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f7468656d656669736865722f6b726f73732d6875676f2d706f7274666f6c696f2d74656d706c6174652e7376673f636f6c6f723d25323273756363657373253232267374796c653d666c61742d737175617265"><img src="https://camo.githubusercontent.com/681bb16b34f1f1bd8f1f39a7eee31a977147c273/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f7468656d656669736865722f6b726f73732d6875676f2d706f7274666f6c696f2d74656d706c6174652e7376673f636f6c6f723d25323273756363657373253232267374796c653d666c61742d737175617265" alt="GitHub forks" data-canonical-src="https://img.shields.io/github/forks/themefisher/parsa-hugo-personal-blog-theme.svg?color=%22success%22&amp;style=flat-square" style="max-width:100%;"></a>
+<a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/5039397335b7dac7e7aecc23078acf9ca39e3385/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732d636c6f7365642d7261772f7468656d656669736865722f6b726f73732d6875676f2d706f7274666f6c696f2d74656d706c6174652e7376673f636f6c6f723d2532326f72616e6765253232267374796c653d666c61742d737175617265"><img src="https://camo.githubusercontent.com/5039397335b7dac7e7aecc23078acf9ca39e3385/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732d636c6f7365642d7261772f7468656d656669736865722f6b726f73732d6875676f2d706f7274666f6c696f2d74656d706c6174652e7376673f636f6c6f723d2532326f72616e6765253232267374796c653d666c61742d737175617265" alt="GitHub issues closed" data-canonical-src="https://img.shields.io/github/issues-closed-raw/themefisher/parsa-hugo-personal-blog-theme.svg?color=%22orange%22&amp;style=flat-square" style="max-width:100%;"></a>
+<a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/6ca1c5219092f946929535f79cd0bc274c1499d4/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d4d49542d626c75652e7376673f267374796c653d666c61742d737175617265"><img src="https://camo.githubusercontent.com/6ca1c5219092f946929535f79cd0bc274c1499d4/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d4d49542d626c75652e7376673f267374796c653d666c61742d737175617265" alt="license" data-canonical-src="https://img.shields.io/badge/license-MIT-blue.svg?&amp;style=flat-square" style="max-width:100%;"></a></p>
 
 </div>
 
@@ -24,11 +21,11 @@
 
 <h2>Table of Contents</h2>
 <ul>
-  <li><a href="#demo"></a>Demo</li>
+  <li><a href="#demo">Demo</a></li>
   <li><a href="#installation">Installation</a></li>
   <li><a href="#reporting-issues">Reporting Issues</a></li>
   <li><a href="#technical-support-or-questions">Technical Support or Questions</a></li>
-  <li><a href="#licensing"></a>Licensing</li>
+  <li><a href="#licensing">Licensing</a></li>
   <li><a href="https://themefisher.com/hugo-themes/">More Hugo Themes</a></li>
 </ul>
 
@@ -46,20 +43,20 @@
   </thead>
   <tbody>
     <tr>
-      <td><a target="_blank" href="/themefisher/parsa-hugo-personal-blog-theme/blob/master/images/home.png">
-          <img src="/themefisher/parsa-hugo-personal-blog-theme/raw/master/images/home.png" alt="Homepage"
+      <td><a target="_blank" href="images/home.png">
+          <img src="images/home.png" alt="Homepage"
             style="max-width:100%;"></a></td>
-      <td><a target="_blank" href="/themefisher/parsa-hugo-personal-blog-theme/blob/master/images/home2.png"><img
-            src="/themefisher/parsa-hugo-personal-blog-theme/raw/master/images/home2.png" alt="Homepage 2"
+      <td><a target="_blank" href="images/home2.png"><img
+            src="images/home2.png" alt="Homepage 2"
             style="max-width:100%;"></a></td>
-      <td><a target="_blank" href="/themefisher/parsa-hugo-personal-blog-theme/blob/master/images/single.png"><img
-            src="/themefisher/parsa-hugo-personal-blog-theme/raw/master/images/single.png" alt="Single"
+      <td><a target="_blank" href="images/single.png"><img
+            src="images/single.png" alt="Single"
             style="max-width:100%;"></a></td>
-      <td><a target="_blank" href="/themefisher/parsa-hugo-personal-blog-theme/blob/master/images/about.png"><img
-            src="/themefisher/parsa-hugo-personal-blog-theme/raw/master/images/about.png" alt="About"
+      <td><a target="_blank" href="images/about.png"><img
+            src="images/about.png" alt="About"
             style="max-width:100%;"></a></td>
-      <td><a target="_blank" href="/themefisher/parsa-hugo-personal-blog-theme/blob/master/images/contact.png"><img
-            src="/themefisher/parsa-hugo-personal-blog-theme/raw/master/images/contact.png" alt="Contact"
+      <td><a target="_blank" href="images/contact.png"><img
+            src="images/contact.png" alt="Contact"
             style="max-width:100%;"></a></td>
     </tr>
   </tbody>
