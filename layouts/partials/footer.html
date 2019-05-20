@@ -55,6 +55,10 @@
 
 </script>
 
+<script>
+  var indexURL = {{ "index.json" | absURL }}
+</script>
+
 {{ "<!-- JS Plugins -->" | safeHTML }}
 {{ range .Site.Params.plugins.js}}
 <script src="{{ .URL | absURL }}"></script>

@@ -26,7 +26,7 @@ if(searchQuery){
 
 
 function executeSearch(searchQuery){
-  $.getJSON( "/theme/parsa-hugo/index.json", function( data ) {
+  $.getJSON( indexURL, function( data ) {
     var pages = data;
     var fuse = new Fuse(pages, fuseOptions);
     var result = fuse.search(searchQuery);
