@@ -11,7 +11,7 @@
 </div>
 
 <div align="center">
-  <img src="images/homepage.gif" width="100%" alt="Parsa Blog template by themefisher">
+  <img src="https://user-images.githubusercontent.com/37659754/58609616-04614900-82ca-11e9-9e17-18febdec9347.gif" width="100%" alt="Parsa Blog template by themefisher">
 </div>
 <p><strong>Parsa Blog Templates -</strong>Parsa is an expedite, cozy, gorgeous responsive personal blog template. It’s
   crafted with well-planned attention for a personal blog site. It features an affluent search bar that allows your
@@ -43,21 +43,16 @@
   </thead>
   <tbody>
     <tr>
-      <td><a target="_blank" href="images/home.png">
-          <img src="images/home.png" alt="Homepage"
-            style="max-width:100%;"></a></td>
-      <td><a target="_blank" href="images/home2.png"><img
-            src="images/home2.png" alt="Homepage 2"
-            style="max-width:100%;"></a></td>
-      <td><a target="_blank" href="images/single.png"><img
-            src="images/single.png" alt="Single"
-            style="max-width:100%;"></a></td>
-      <td><a target="_blank" href="images/about.png"><img
-            src="images/about.png" alt="About"
-            style="max-width:100%;"></a></td>
-      <td><a target="_blank" href="images/contact.png"><img
-            src="images/contact.png" alt="Contact"
-            style="max-width:100%;"></a></td>
+      <td><img src="https://user-images.githubusercontent.com/37659754/58609653-2c50ac80-82ca-11e9-9f42-887141a0f6dd.png" alt="Homepage"
+            style="max-width:100%;"></td>
+      <td><img src="https://user-images.githubusercontent.com/37659754/58609715-7043b180-82ca-11e9-9225-dfc9d255f516.png" alt="Homepage 2"
+            style="max-width:100%;"></td>
+      <td><img src="https://user-images.githubusercontent.com/37659754/58609747-894c6280-82ca-11e9-9253-d1256af4aad9.png" alt="Single"
+            style="max-width:100%;"></td>
+      <td><img src="https://user-images.githubusercontent.com/37659754/58609762-9cf7c900-82ca-11e9-9956-53e6a3b65636.png" alt="About"
+            style="max-width:100%;"></td>
+      <td><img src="https://user-images.githubusercontent.com/37659754/58609777-ac771200-82ca-11e9-9814-9e1fc7404b91.png" alt="Contact"
+            style="max-width:100%;"></td>
     </tr>
   </tbody>
 </table>
@@ -110,7 +105,7 @@
             alt="Bexer" style="max-width:100%;"></a></th>
       <th align="center"><a href="https://themefisher.com/products/small-apps-hugo-app-landing-theme/"
           rel="nofollow"><img
-            src="https://user-images.githubusercontent.com/37659754/54068897-96cdef80-427b-11e9-8fd4-2a5b83cea6d0.png"
+            src="https://user-images.githubusercontent.com/37659754/58609417-50f85480-82c9-11e9-8958-e501af844294.jpg"
             alt="Small Apps" style="max-width:100%;"></a></th>
     </tr>
   </thead>
