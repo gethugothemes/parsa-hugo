@@ -811,6 +811,11 @@ blockquote {
   margin-bottom: 20px;
 }
 
+.content img{
+  max-width: 100%;
+  height: auto;
+}
+
 .widget {
   padding: 15px 0;
 }
