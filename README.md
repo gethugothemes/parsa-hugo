@@ -94,42 +94,10 @@
 
 <h2>Premium Themes</h2>
 
-<table>
-  <thead>
-    <tr>
-      <th align="center"><a href="https://themefisher.com/products/biztrox-hugo-template/" rel="nofollow"><img
-            src="https://user-images.githubusercontent.com/37659754/54068875-6ab26e80-427b-11e9-876e-4670bdacb975.png"
-            alt="Biztrox" style="max-width:100%;"></a></th>
-      <th align="center"><a href="https://themefisher.com/products/bexer-hugo-theme/" rel="nofollow"><img
-            src="https://user-images.githubusercontent.com/37659754/54068892-84ec4c80-427b-11e9-9952-5d455c259145.png"
-            alt="Bexer" style="max-width:100%;"></a></th>
-      <th align="center"><a href="https://themefisher.com/products/small-apps-hugo-app-landing-theme/"
-          rel="nofollow"><img
-            src="https://user-images.githubusercontent.com/37659754/58609417-50f85480-82c9-11e9-8958-e501af844294.jpg"
-            alt="Small Apps" style="max-width:100%;"></a></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="center"><strong>Biztrox</strong></td>
-      <td align="center"><strong>Bexer</strong></td>
-      <td align="center"><strong>Small Apps</strong></td>
-    </tr>
-    <tr>
-      <td align="center"><a href="https://themefisher.com/products/dtox-hugo-theme/" rel="nofollow"><img
-            src="https://user-images.githubusercontent.com/37659754/54068836-07284100-427b-11e9-8ff2-48eec3220a26.png"
-            alt="Dtox" style="max-width:100%;"></a></td>
-      <td align="center"><a href="https://themefisher.com/products/agico-hugo-theme/" rel="nofollow"><img
-            src="https://user-images.githubusercontent.com/37659754/57753899-16aa8700-770f-11e9-9a3d-d3fc45313fbd.png"
-            alt="Agico" style="max-width:100%;"></a></td>
-      <td align="center"><a href="https://themefisher.com/products/airspace-hugo/" rel="nofollow"><img
-            src="https://user-images.githubusercontent.com/37659754/57754161-9d5f6400-770f-11e9-8a76-778fbb9910c4.png"
-            alt="Airspace" style="max-width:100%;"></a></td>
-    </tr>
-    <tr>
-      <td align="center"><strong>Dtox</strong></td>
-      <td align="center"><strong>Agico</strong></td>
-      <td align="center"><strong>Airspace</strong></td>
-    </tr>
-  </tbody>
-</table>
+| [![Biztrox](https://user-images.githubusercontent.com/37659754/54068875-6ab26e80-427b-11e9-876e-4670bdacb975.png)](https://themefisher.com/products/biztrox-hugo-template/)  | [![Bexer](https://user-images.githubusercontent.com/37659754/54068892-84ec4c80-427b-11e9-9952-5d455c259145.png)](https://themefisher.com/products/bexer-hugo-theme/) | [![Small Apps](https://user-images.githubusercontent.com/37659754/58609417-50f85480-82c9-11e9-8958-e501af844294.jpg)](https://themefisher.com/products/small-apps-hugo-app-landing-theme/) |
+|:---:|:---:|:---:|
+| **Biztrox**  | **Bexer**  | **Small Apps**  |
+| [![Dtox](https://user-images.githubusercontent.com/37659754/54068836-07284100-427b-11e9-8ff2-48eec3220a26.png)](https://themefisher.com/products/dtox-hugo-theme/) | [![Agico](https://user-images.githubusercontent.com/37659754/57753899-16aa8700-770f-11e9-9a3d-d3fc45313fbd.png)](https://themefisher.com/products/agico-hugo-theme/) | [![Airspace](https://user-images.githubusercontent.com/37659754/57754161-9d5f6400-770f-11e9-8a76-778fbb9910c4.png)](https://themefisher.com/products/airspace-hugo/) |
+| **Dtox** | **Agico** | **Airspace** |
+| [![Agen](https://user-images.githubusercontent.com/37659754/63633832-3a675c80-c670-11e9-8380-a7b5f8f82b76.png)](https://themefisher.com/products/agen-hugo-agency-template/) | [![Mega-Bundle-HUGO](https://user-images.githubusercontent.com/37659754/63633830-30ddf480-c670-11e9-8a8b-04a142f8ffc1.png)](https://themefisher.com/products/hugo-mega-bundle/) |
+| **Agen** | **Hugo Mega Bundle** |
