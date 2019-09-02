@@ -18,6 +18,8 @@
   visitors to find out their desired blog post quickly. Moreover, beginners friendly feature allows for easy
   installation and customization. The functional features allow you the basic customization of your website
   effortlessly. Parsa is based on the bootstrap framework and responsive to all modern devices and browsers.</p>
+  
+**The images are only for demonstration purpose, Please don't use those images.**
 
 <h2>Table of Contents</h2>
 <ul>
