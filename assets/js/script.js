@@ -3,7 +3,7 @@
 
   // Preloader js    
   $(window).on('load', function () {
-    $('.preloader').fadeOut(700);
+    $('.preloader').fadeOut(300);
   });
 
   // headroom js
@@ -45,12 +45,12 @@
   });
 
   // Masonry
-  $(document).ready(function () {
+  setTimeout(function(){
     $('.masonry-container').masonry({
       itemSelector: '.masonry-container > div',
       columnWidth: 1
     });
-  });
+  }, 500);
 
 
   // instafeed
@@ -95,7 +95,7 @@
         }
       ]
     });
-  }, 2000);
+  }, 1000);
 
   // article reading time
   $('article').each(function () {
