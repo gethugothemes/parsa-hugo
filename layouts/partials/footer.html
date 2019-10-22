@@ -38,23 +38,6 @@
   </div>
 </footer>
 
-{{ $script:= "script" }}
-{{ $scriptTag:= "<" }}
-{{$scriptTag | safeHTML }}{{$script}} type="text/javascript">
-  
-  {{ $.Scratch.Set "counter" 0 }}
-  {{ range .Site.Params.plugins.css }}
-  {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
-  var css{{$.Scratch.Get `counter`}} = document.createElement('link');
-  css{{$.Scratch.Get `counter`}}.rel = 'stylesheet';
-  css{{$.Scratch.Get `counter`}}.href = '{{ .URL | absURL }}';
-  css{{$.Scratch.Get `counter`}}.type = 'text/css';
-  var fastCSS{{$.Scratch.Get `counter`}} = document.getElementsByTagName('link')[0];
-  fastCSS{{$.Scratch.Get `counter`}}.parentNode.insertBefore(css{{$.Scratch.Get `counter`}}, fastCSS{{$.Scratch.Get `counter`}});
-  {{ end }}
-
-</script>
-
 <script>
   var indexURL = {{ "index.json" | absURL }}
 </script>
