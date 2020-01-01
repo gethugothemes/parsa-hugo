@@ -1,8 +1,8 @@
 # default config
-baseURL = "https://parsa-test.netlify.com/"
+baseURL = "https://examplesite.org"
 languageCode = "en-us"
 title = "Parsa | Personal Blog Template"
-theme = "parsa-test"
+theme = "parsa-hugo"
 summaryLength = "10"
 paginate = 6
 
