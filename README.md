@@ -1,89 +1,78 @@
-<div align="center">
-  <h1><a href="https://themefisher.com/" target="_blank" rel="noopener noreferrer">Parsa Hugo Template(MIT License)</a> </h1>
-  <img src="https://user-images.githubusercontent.com/37659754/58609616-04614900-82ca-11e9-9e17-18febdec9347.gif" width="100%" alt="Parsa Blog template by themefisher">
-</div>
-<p><strong>Parsa Blog Templates -</strong>Parsa is an expedite, cozy, gorgeous responsive personal blog template. It’s
-  crafted with well-planned attention for a personal blog site. It features an affluent search bar that allows your
-  visitors to find out their desired blog post quickly. Moreover, beginners friendly feature allows for easy
-  installation and customization. The functional features allow you the basic customization of your website
-  effortlessly. Parsa is based on the bootstrap framework and responsive to all modern devices and browsers.</p>
-  
+# Easy Setup (Hugo + Netlify + Forestry)
+Build your website with kross hugo theme by following this easy steps (No Coding Required)
+
+<a href="http://bit.ly/meghna-hugo-installation" target="_blank" title="meghna hugo installation" rel="nofollow"><img width="100%" src="https://user-images.githubusercontent.com/37659754/70844354-4028be00-1e6a-11ea-8d84-02e9a25e7db8.png"></a>
+
+In this tutorial we will show you to make your website live without buying any hosting and touching a single line of code. We made this tutorial based on [meghna hugo](https://github.com/themefisher/meghna-hugo) but you can setup everithing like this.
+
+### What you need !!
+
+1. Git acccount (Ex: Github, Gitlab etc ) . In our case we use github.
+2. [Netlify](https://bit.ly/netlify-account) account to host files and add custom domain .
+3. [Forestry](https://bit.ly/forestry-account) account to maintain whole project without code.
+
+
+### Step 1 : Fork or Clone repository
+
+First we will fork this [parsa hugo](https://github.com/themefisher/parsa-hugo) template.
+
+### Step 2 : Add your repository in Forestry
+
+Go to your [forestry](https://bit.ly/forestry-account)  account and click on `import your site now`. declare your config.toml file [`exampleSite`] and fill up basic settings . Mark everything is done then go to configuration to change the base url . You can put any url but this have to similar as netlify . So for now put a name which you are going to put in netlify as netlify subdomain.
+
+### Step 3 : Setup and host website with Netlify
+
+Here comes the last step . Go to your [netlify](https://bit.ly/netlify-account) account and click add new site . Choose your git repository to import your website in netlify .  And now you can see the forked `parsa hugo` theme. select it and follow the steps. Then go to `site settings` for change the site name and put your subdoamin name here what you puted on forestry as base url. save it and go to `deploy` from top menu, Wait a while and click on `site preview` or just simply go to the subdomain you puted as base url. **BOOM! Your site is live.** Now you can go to forestry and add, remove or customize every setting and content.
+
+> If you face any issue regarding the installation feel free to onen [open a new issue](https://github.com/themefisher/parsa-hugo/issues)
+
+
+## Table of Contents
+
+- [Demo](#demo)
+- [Installation](#installation)
+- [Reporting Issues](#reporting-issues)
+- [Technical Support or Questions](#technical-support-or-questions)
+- [Licensing](#licensing)
+- [More Hugo Themes](https://themefisher.com/hugo-themes/)
+
+
+## Demo
+
+| ![](https://user-images.githubusercontent.com/37659754/58609653-2c50ac80-82ca-11e9-9f42-887141a0f6dd.png) | ![](https://user-images.githubusercontent.com/37659754/58609715-7043b180-82ca-11e9-9225-dfc9d255f516.png) | ![](https://user-images.githubusercontent.com/37659754/58609747-894c6280-82ca-11e9-9253-d1256af4aad9.png) | ![](https://user-images.githubusercontent.com/37659754/58609762-9cf7c900-82ca-11e9-9956-53e6a3b65636.png) | ![](https://user-images.githubusercontent.com/37659754/58609777-ac771200-82ca-11e9-9814-9e1fc7404b91.png) |
+|---|---|---|---|---|
+| Homepage  | Homepage 2  | Single  | About  | Contact  |
+
+
 **The images are only for demonstration purpose, Please don't use those images.**
 
-<h2>Table of Contents</h2>
-<ul>
-  <li><a href="#demo">Demo</a></li>
-  <li><a href="#installation">Installation</a></li>
-  <li><a href="#reporting-issues">Reporting Issues</a></li>
-  <li><a href="#technical-support-or-questions">Technical Support or Questions</a></li>
-  <li><a href="#licensing">Licensing</a></li>
-  <li><a href="https://themefisher.com/hugo-themes/">More Hugo Themes</a></li>
-</ul>
-
-<h2 id="demo">Demo</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th>Homepage</th>
-      <th>Homepage 2</th>
-      <th>Single</th>
-      <th>About</th>
-      <th>Contact</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><img src="https://user-images.githubusercontent.com/37659754/58609653-2c50ac80-82ca-11e9-9f42-887141a0f6dd.png" alt="Homepage"
-            style="max-width:100%;"></td>
-      <td><img src="https://user-images.githubusercontent.com/37659754/58609715-7043b180-82ca-11e9-9225-dfc9d255f516.png" alt="Homepage 2"
-            style="max-width:100%;"></td>
-      <td><img src="https://user-images.githubusercontent.com/37659754/58609747-894c6280-82ca-11e9-9253-d1256af4aad9.png" alt="Single"
-            style="max-width:100%;"></td>
-      <td><img src="https://user-images.githubusercontent.com/37659754/58609762-9cf7c900-82ca-11e9-9956-53e6a3b65636.png" alt="About"
-            style="max-width:100%;"></td>
-      <td><img src="https://user-images.githubusercontent.com/37659754/58609777-ac771200-82ca-11e9-9814-9e1fc7404b91.png" alt="Contact"
-            style="max-width:100%;"></td>
-    </tr>
-  </tbody>
-</table>
-
-<a href="http://demo.themefisher.com/parsa-hugo/">Live Preview</a>
+[Live Preview](http://demo.themefisher.com/parsa-hugo/).
 
 
-<h2 id="installation">Installation</h2>
+## Installation
+At the top we have shown an easy hugo installation. but still if you think you want to go with the traditional way then use the following commands:
 
-<p>Navigate to your themes folder in your Hugo site and use the following commands:</p>
+```
+$ git clone git@github.com:themefisher/parsa-hugo.git
+$ cd parsa-hugo/exampleSite/
+$ hugo server --themesDir ../..
+```
 
-<pre><code>
-  $ mkdir themes
-  $ cd themes
-  $ git clone https://github.com/themefisher/parsa-hugo-personal-blog-theme.git
-</code></pre>
+## Reporting Issues
 
-<h2 id="reporting-issues">Reporting Issues</h2>
+We use GitHub Issues as the official bug tracker for the **Parsa Theme**. Please Search [existing issues](https://github.com/themefisher/parsa-hugo/issues). It’s possible someone has already reported the same problem.
+If your problem or idea is not addressed yet, [open a new issue](https://github.com/themefisher/parsa-hugo/issues/new)
 
-<p>We use GitHub Issues as the official bug tracker for the <strong>Kross Theme.</strong> Please Search <a
-    href="https://github.com/themefisher/parsa-hugo-personal-blog-theme/issues">existing issues.</a>It’s possible
-  someone has already reported the same problem.</p>
+## Technical Support or Questions
 
-<p>If your problem or idea is not addressed yet, <a
-    href="https://github.com/themefisher/parsa-hugo-personal-blog-theme/issues/new">open a new issue</a></p>
+If you have questions or need help integrating the product please [contact us](mailto:themefisher@gmail.com) instead of opening an issue.
 
-<h2 id="technical-support-or-questions">Technical Support or Questions</h2>
+## Licensing
 
-<p>If you have questions or need help integrating the product please [contact us](mailto:themefisher@gmail.com) instead
-  of opening an issue.</p>
+- Copyright 2019 Themefisher (https://themefisher.com/)
+- Licensed under MIT (https://github.com/themefisher/parsa-hugo/blob/master/LICENSE)
 
-<h2 id="licensing">Licensing</h2>
-
-<ul>
-  <li>Copyright 2019 Themefisher (https://themefisher.com/)</li>
-  <li>Licensed under MIT (https://github.com/themefisher/parsa-hugo-personal-blog-theme/blob/master/LICENSE)</li>
-</ul>
-
-
-<h2>Premium Themes</h2>
+## Premium Themes
 
 | [![Mega-Bundle-HUGO](https://gethugothemes.com/wp-content/uploads/edd/2019/09/Mega-Bundle-HUGO.png)](https://themefisher.com/products/hugo-mega-bundle/) | [![revolve](https://gethugothemes.com/wp-content/uploads/edd/2019/11/revolve.jpg)](https://gethugothemes.com/products/revolve-hugo/) | [![Liva](https://gethugothemes.com/wp-content/uploads/edd/2019/11/liva.png)](https://gethugothemes.com/products/liva-hugo/) |
 |:---:|:---:|:---:|
