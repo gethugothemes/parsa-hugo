@@ -12,35 +12,35 @@ home = ["HTML", "RSS", "JSON"]
 
 # CSS Plugins
 [[params.plugins.css]]
-URL = "plugins/bootstrap/bootstrap.min.css"
+link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
-URL = "plugins/slick/slick.css"
+link = "plugins/slick/slick.css"
 [[params.plugins.css]]
-URL = "plugins/themify-icons/themify-icons.css"
+link = "plugins/themify-icons/themify-icons.css"
 
 # JS Plugins
 [[params.plugins.js]]
-URL = "plugins/jQuery/jquery.min.js"
+link = "plugins/jQuery/jquery.min.js"
 [[params.plugins.js]]
-URL = "plugins/bootstrap/bootstrap.min.js"
+link = "plugins/bootstrap/bootstrap.min.js"
 [[params.plugins.js]]
-URL = "plugins/slick/slick.min.js"
+link = "plugins/slick/slick.min.js"
 [[params.plugins.js]]
-URL = "plugins/headroom/headroom.js"
+link = "plugins/headroom/headroom.js"
 [[params.plugins.js]]
-URL = "plugins/instafeed/instafeed.min.js"
+link = "plugins/instafeed/instafeed.min.js"
 [[params.plugins.js]]
-URL = "plugins/masonry/masonry.js"
+link = "plugins/masonry/masonry.js"
 [[params.plugins.js]]
-URL = "plugins/reading-time/readingTime.min.js"
+link = "plugins/reading-time/readingTime.min.js"
 [[params.plugins.js]]
-URL = "plugins/smooth-scroll/smooth-scroll.js"
+link = "plugins/smooth-scroll/smooth-scroll.js"
 [[params.plugins.js]]
-URL = "plugins/search/fuse.min.js"
+link = "plugins/search/fuse.min.js"
 [[params.plugins.js]]
-URL = "plugins/search/mark.js"
+link = "plugins/search/mark.js"
 [[params.plugins.js]]
-URL = "plugins/search/search.js"
+link = "plugins/search/search.js"
 
 # navigation
 [[menu.main]]

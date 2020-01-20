@@ -43,7 +43,7 @@
 
 {{ "<!-- JS Plugins -->" | safeHTML }}
 {{ range .Site.Params.plugins.js}}
-<script src="{{ .URL | absURL }}"></script>
+<script src="{{ .link | absURL }}"></script>
 {{ end }}
 
 {{ "<!-- Main Script -->" | safeHTML }}
