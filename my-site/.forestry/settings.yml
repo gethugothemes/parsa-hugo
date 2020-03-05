@@ -3,7 +3,27 @@ new_page_extension: md
 auto_deploy: false
 admin_path: ''
 webhook_url: 
-sections: 
+sections:
+- type: directory
+  path: my-site/content
+  label: Pages
+  create: all
+  match: "*"
+- type: directory
+  path: my-site/content/search
+  label: Search
+  create: all
+  match: "**/*"
+- type: directory
+  path: my-site/content/contact
+  label: Contact
+  create: all
+  match: "**/*"
+- type: directory
+  path: my-site/content/about
+  label: About
+  create: all
+  match: "**/*"
 upload_dir: my-site/static/uploads
 public_path: "/uploads"
 front_matter_path: ''
