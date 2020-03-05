@@ -21,7 +21,7 @@ sections:
   match: "**/*"
 - type: directory
   path: my-site/content/about
-  label: About
+  label: About Me
   create: all
   match: "**/*"
 upload_dir: my-site/static/uploads
