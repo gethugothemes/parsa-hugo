@@ -5,6 +5,12 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
+  path: exampleSite/recipes
+  label: Recipe
+  create: all
+  match: "**/*"
+  new_doc_ext: ".md"
+- type: directory
   path: exampleSite/content
   label: Post
   create: documents
