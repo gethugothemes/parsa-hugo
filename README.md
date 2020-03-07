@@ -3,7 +3,7 @@ Build your website with kross hugo theme by following this easy steps (No Coding
 
 <a href="http://bit.ly/meghna-hugo-installation" target="_blank" title="meghna hugo installation" rel="nofollow"><img width="100%" src="https://user-images.githubusercontent.com/37659754/70844354-4028be00-1e6a-11ea-8d84-02e9a25e7db8.png"></a>
 
-In this tutorial we will show you to make your website live without buying any hosting and touching a single line of code. We made this tutorial based on [meghna hugo](https://github.com/themefisher/meghna-hugo) but you can setup everithing like this.
+In this tutorial we will show you to make your website live without buying any hosting and touching a single line of code. We made this tutorial based on [meghna hugo](https://github.com/themefisher/meghna-hugo) but you can setup everything like this.
 
 ### What you need !!
 
@@ -18,7 +18,7 @@ First we will fork this [parsa hugo](https://github.com/themefisher/parsa-hugo) 
 
 ### Step 2 : Add your repository in Forestry
 
-Go to your [forestry](https://bit.ly/forestry-account)  account and click on `import your site now`. declare your config.toml file [`exampleSite`] and fill up basic settings . Mark everything is done then go to configuration to change the base url . You can put any url but this have to similar as netlify . So for now put a name which you are going to put in netlify as netlify subdomain.
+Go to your [Forestry](https://bit.ly/forestry-account)  account and click on `import your site now`. Declare your config.toml file [`exampleSite`] and fill up basic settings. Mark everything is done then go to configuration to change the base url. You can put any url but this have to similar as Netlify. So for now put a name which you are going to put in netlify as netlify subdomain.
 
 ### Step 3 : Setup and host website with Netlify
 
@@ -50,7 +50,7 @@ Here comes the last step . Go to your [netlify](https://bit.ly/netlify-account) 
 
 
 ## Installation
-At the top we have shown an easy hugo installation. but still if you think you want to go with the traditional way then use the following commands:
+At the top we have shown an easy Hugo installation. but still if you think you want to go with the traditional way then use the following commands:
 
 ```
 $ git clone git@github.com:themefisher/parsa-hugo.git
