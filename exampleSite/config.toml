@@ -1,7 +1,7 @@
 # default config
 baseURL = "https://examplesite.org"
 languageCode = "en-us"
-title = "Parsa | Personal Blog Template"
+title = "Parsa Hugo | Personal Blog Template"
 theme = "parsa-hugo"
 summaryLength = "10"
 paginate = 6
@@ -61,6 +61,10 @@ home = "Home"
 layout = "1"
 # Meta data
 description = "This is meta description"
+# Preloader
+preloader = true
+# search
+search = true
 # about author
 author = "Themefisher"
 author_image = "images/banner-img.png"
@@ -75,14 +79,6 @@ contact_form_action = "#"
 google_analitycs_id = "Your ID"
 # copyright
 copyright = "Copyright &copy; 2020 a theme by [themefisher.com](themefisher.com)"
-
-# Preloader
-[params.preloader]
-enable = true
-
-# search
-[params.search]
-enable = true
 
 # Instagram feed
 [params.instafeed]

@@ -95,7 +95,7 @@
         }
       ]
     });
-  }, 1000);
+  }, 1500);
 
   // article reading time
   $('article').each(function () {

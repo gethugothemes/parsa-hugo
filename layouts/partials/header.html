@@ -31,7 +31,7 @@
         {{ end }}
         {{ end }}
       </ul>
-      {{ if .Site.Params.search.enable }}
+      {{ if .Site.Params.search }}
       {{ "<!-- search -->" | safeHTML }}
       <form class="form-inline position-relative ml-lg-4" action="{{ .Site.BaseURL }}/search">
         <input class="form-control px-0 w-100" type="search" placeholder="Search" id="search-query" name="s">
