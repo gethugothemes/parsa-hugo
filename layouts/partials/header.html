@@ -7,7 +7,18 @@
     </button>
 
     <div class="collapse navbar-collapse text-center" id="navogation">
+
+<!-- <div>
+  <ul class="language-list">
+    {{ range $.Site.Home.AllTranslations }}
+    <li><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+    {{ end }}
+  </ul>
+</div> -->
       <ul class="navbar-nav ml-auto">
+        {{ range $.Site.Home.AllTranslations }}
+        <li class="nav-item"><a class="nav-link text-uppercase text-dark" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+        {{ end }}
         <li class="nav-item">
           <a class="nav-link text-uppercase text-dark" href="{{.Site.BaseURL}}">{{ with .Site.Params.Home }} {{ . }} {{ end }}</a>
         </li>

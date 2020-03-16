@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fashion on Parsa Hugo | Personal Blog Template</title>
+    <link>https://examplesite.org/categories/fashion/</link>
+    <description>Recent content in Fashion on Parsa Hugo | Personal Blog Template</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 May 2019 14:46:10 +0600</lastBuildDate>
+    
+	<atom:link href="https://examplesite.org/categories/fashion/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Organize Your Life With 10 Simple rule</title>
+      <link>https://examplesite.org/organize-your-life.2/</link>
+      <pubDate>Tue, 14 May 2019 14:46:10 +0600</pubDate>
+      
+      <guid>https://examplesite.org/organize-your-life.2/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</description>
+    </item>
+    
+  </channel>
+</rss>

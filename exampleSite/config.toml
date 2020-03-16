@@ -5,6 +5,7 @@ title = "Parsa Hugo | Personal Blog Template"
 theme = "parsa-hugo"
 summaryLength = "10"
 paginate = 6
+DefaultContentLanguage = "en"
 
 # output
 [outputs]
@@ -102,3 +103,19 @@ URL = "#"
 [[params.social]]
 icon = "ti-github"
 URL = "#"
+
+################################ English Language ########################
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+contentDir = "content/english"
+weight = 1
+home = "Home"
+
+################################ Spanish Language ########################
+[Languages.es]
+languageName = "Es"
+languageCode = "es-es"
+contentDir = "content/spanish"
+weight = 2
+home = "Hogar"
