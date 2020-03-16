@@ -1,24 +1,45 @@
-# default config
-baseURL = "https://examplesite.org"
+baseURL = "https://foodie-quarantine.netlify"
 languageCode = "en-us"
-title = "Parsa Hugo | Personal Blog Template"
-theme = "parsa-hugo"
-summaryLength = "10"
 paginate = 6
-
-# output
+summaryLength = "10"
+theme = "parsa-hugo"
+title = "Foodie In Quarantine"
+[[menu.main]]
+URL = "about"
+name = "About"
+weight = 2
+[[menu.main]]
+URL = "contact"
+name = "Contact"
+weight = 3
 [outputs]
 home = ["HTML", "RSS", "JSON"]
-
-# CSS Plugins
+[params]
+address = "6 rip carl Avenue CA 90733"
+author = "Themefisher"
+author_image = "images/banner-img.png"
+bio = "I’m a Freelance Interactive Art Director based in France. Focusing across branding and identity, digital and print."
+contact_form_action = "#"
+copyright = "Copyright &copy; 2020 a theme by [themefisher.com](themefisher.com)"
+description = "This is meta description"
+email = "exmaple@ymail.com"
+google_analitycs_id = "Your ID"
+home = "Home"
+layout = "1"
+logo = "images/logo.png"
+mobile = "+90 000 333 22"
+preloader = true
+search = true
+[params.instafeed]
+access_token = "4044026246.1677ed0.8896752506ed4402a0519d23b8f50a17"
+enable = true
+user_id = "4044026246"
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
 link = "plugins/slick/slick.css"
 [[params.plugins.css]]
 link = "plugins/themify-icons/themify-icons.css"
-
-# JS Plugins
 [[params.plugins.js]]
 link = "plugins/jQuery/jquery.min.js"
 [[params.plugins.js]]
@@ -41,64 +62,15 @@ link = "plugins/search/fuse.min.js"
 link = "plugins/search/mark.js"
 [[params.plugins.js]]
 link = "plugins/search/search.js"
-
-# navigation
-[[menu.main]]
-name = "About"
-URL = "about"
-weight = 2
-
-[[menu.main]]
-name = "Contact"
-URL = "contact"
-weight = 3
-
-# deult parameter
-[params]
-logo = "images/logo.png"
-home = "Home"
-# theme layout ( two layout is available, "1" and "2" )
-layout = "1"
-# Meta data
-description = "This is meta description"
-# Preloader
-preloader = true
-# search
-search = true
-# about author
-author = "Themefisher"
-author_image = "images/banner-img.png"
-bio = "I’m a Freelance Interactive Art Director based in France. Focusing across branding and identity, digital and print."
-# Contact info
-mobile = "+90 000 333 22"
-email = "exmaple@ymail.com"
-address = "6 rip carl Avenue CA 90733"
-# Contact Form Action
-contact_form_action = "#"
-# Google Analitycs
-google_analitycs_id = "Your ID"
-# copyright
-copyright = "Copyright &copy; 2020 a theme by [themefisher.com](themefisher.com)"
-
-# Instagram feed
-[params.instafeed]
-enable = true
-user_id = "4044026246"
-access_token = "4044026246.1677ed0.8896752506ed4402a0519d23b8f50a17"
-
-# social site
 [[params.social]]
+URL = "#"
 icon = "ti-facebook"
-URL = "#"
-
 [[params.social]]
+URL = "#"
 icon = "ti-twitter-alt"
-URL = "#"
-
 [[params.social]]
+URL = "#"
 icon = "ti-linkedin"
-URL = "#"
-
 [[params.social]]
-icon = "ti-github"
 URL = "#"
+icon = "ti-github"
