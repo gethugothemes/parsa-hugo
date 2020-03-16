@@ -1,4 +1,4 @@
-baseURL = "https://foodie-quarantine.netlify"
+baseURL = "https://foodie-quarantine.netlify.com"
 languageCode = "en-us"
 paginate = 6
 summaryLength = "10"
