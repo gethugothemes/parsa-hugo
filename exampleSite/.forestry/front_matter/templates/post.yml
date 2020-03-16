@@ -27,4 +27,5 @@ fields:
   default: post
   description: 'type: post or featured'
 pages:
+- exampleSite/content/post-2-test.md
 - exampleSite/content/raquel-test.md
