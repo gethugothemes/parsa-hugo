@@ -6,19 +6,6 @@
           <a href="{{.Site.BaseURL}}"><img src="{{.Site.Params.logo | absURL }}" alt="{{.Site.Title}}" class="img-fluid"></a>
         </div>
         <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
-          <h6>Address</h6>
-          <ul class="list-unstyled">
-            <li class="font-secondary text-dark">{{.Site.Params.address | markdownify }}</li>
-          </ul>
-        </div>
-        <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
-          <h6>Contact Info</h6>
-          <ul class="list-unstyled">
-            <li class="font-secondary text-dark">Tel : {{ .Site.Params.mobile | markdownify }}</li>
-            <li class="font-secondary text-dark">Email : {{ .Site.Params.email | markdownify }}</li>
-          </ul>
-        </div>
-        <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
           <h6>Follow</h6>
           <ul class="list-inline d-inline-block">
             {{ range .Site.Params.social }}
