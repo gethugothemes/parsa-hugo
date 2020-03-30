@@ -69,5 +69,5 @@ icon = "ti-twitter-alt"
 URL = "https://www.linkedin.com/company/cloudonfleek/"
 icon = "ti-linkedin"
 [[params.social]]
-URL = "#"
+URL = "https://github.com/CloudOnFleek"
 icon = "ti-github"
