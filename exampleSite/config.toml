@@ -15,24 +15,24 @@ weight = 3
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 [params]
-address = "6 rip carl Avenue CA 90733"
+address = ""
 author = "Themefisher"
 author_image = "images/banner-img.png"
 bio = "I’m a Freelance Interactive Art Director based in France. Focusing across branding and identity, digital and print."
 contact_form_action = "#"
 copyright = "Copyright &copy; 2020 a theme by [themefisher.com](themefisher.com)"
 description = "This is meta description"
-email = "exmaple@ymail.com"
+email = "info@securethatcert.com"
 google_analitycs_id = "Your ID"
 home = "Home"
 layout = "1"
 logo = "images/logo.png"
-mobile = "+90 000 333 22"
+mobile = ""
 preloader = true
 search = true
 [params.instafeed]
 access_token = "4044026246.1677ed0.8896752506ed4402a0519d23b8f50a17"
-enable = true
+enable = false
 user_id = "4044026246"
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
@@ -64,12 +64,9 @@ link = "plugins/search/mark.js"
 link = "plugins/search/search.js"
 [[params.social]]
 URL = "#"
-icon = "ti-facebook"
-[[params.social]]
-URL = "#"
 icon = "ti-twitter-alt"
 [[params.social]]
-URL = "#"
+URL = "https://www.linkedin.com/company/cloudonfleek/"
 icon = "ti-linkedin"
 [[params.social]]
 URL = "#"
