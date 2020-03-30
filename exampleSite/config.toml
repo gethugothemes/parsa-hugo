@@ -3,7 +3,7 @@ languageCode = "en-us"
 paginate = 6
 summaryLength = "10"
 theme = "parsa-hugo"
-title = "Parsa Hugo | Personal Blog Template"
+title = "Cloud on Fleek | Cloud Security Blog "
 [[menu.main]]
 URL = "about"
 name = "About"
