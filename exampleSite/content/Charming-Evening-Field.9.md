@@ -1,15 +1,13 @@
 ---
-title: Charming Evening Field
-date: 2019-05-14T08:46:10.000+00:00
+title: Second Blog Post Ever
+date: 2020-03-31T04:46:10-04:00
 description: This is meta description
 type: post
-image: images/masonary-post/post-10.jpg
+image: "/images/man-holding-macbook-pro-3206168.jpg"
 categories:
-- Food
+- DevSecOps
 tags:
-- Photos
-- Food
-draft: true
+- DevSecOps
 
 ---
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
