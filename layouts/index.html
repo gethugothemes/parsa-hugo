@@ -2,7 +2,7 @@
 
 {{ if eq .Site.Params.layout "1" }}
 <!-- featured post -->
-<section>
+<section class="overflow-hidden">
   <div class="container-fluid p-sm-0">
     <div class="row featured-post-slider">
       {{ range (where .Site.RegularPages "Type" "featured")}}
