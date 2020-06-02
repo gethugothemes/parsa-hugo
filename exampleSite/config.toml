@@ -1,4 +1,4 @@
-baseURL = "https://mathematigals.netlifly.app"
+baseURL = "https://mathematigals.netlify.app"
 languageCode = "en-us"
 paginate = 6
 summaryLength = "10"
