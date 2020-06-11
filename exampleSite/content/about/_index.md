@@ -5,7 +5,7 @@ description: This is meta description
 image: images/bffs.jpg
 
 ---
-Jess and Caoimhe met in 2015 at the start of their PhDs in mathematics at the University of Oxford. As advocates for making mathematicsaccessible, and promoting its many applications to people of all ages, genders, ethnicities, and socioeconomic backgrounds,they founded _Mathematigals_: an organization to foster diversity among physical scientists. 
+Jess and Caoimhe met in 2015 at the start of their PhDs in mathematics at the University of Oxford. As advocates for making mathematics accessible, and promoting its many applications to people of all ages, genders, ethnicities, and socioeconomic backgrounds, they founded _Mathematigals_: an organization to foster diversity among physical scientists.
 
 Recent decades have seen a welcome increase in the participation of women in science worldwide. However, the physical sciences still lags behind in closing the gender gap:researchers inthe fields of Computer Science, Energy, Engineering, Mathematics, and Physics & Astronomy,are comprised ofless than 25% women (Elsevierreport, 2017). The aims of _Mathematigals_ are two-fold:
 
