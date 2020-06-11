@@ -1,7 +1,7 @@
 ---
 title: About
 date: 2019-05-14T08:46:10.000+00:00
-description: This is meta description
+description: Hello we're Caoimhe and Jess
 image: images/bffs.jpg
 
 ---
