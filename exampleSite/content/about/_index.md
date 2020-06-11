@@ -2,7 +2,7 @@
 title: About
 date: 2019-05-14T08:46:10.000+00:00
 description: This is meta description
-image: images/author.jpg
+image: images/bffs.jpg
 
 ---
 Jess and Caoimhe met in 2015 at the start of their PhDs in mathematics at the University of Oxford. As advocates for making mathematicsaccessible, and promoting its many applications to people of all ages, genders, ethnicities, and socioeconomic backgrounds,they founded _Mathematigals_: an organization to foster diversity among physical scientists. 
