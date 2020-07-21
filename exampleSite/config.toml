@@ -1,5 +1,5 @@
 # default config
-baseURL = "https://examplesite.org"
+baseURL = "https://confident-lovelace-cc400a.netlify.app"
 languageCode = "en-us"
 title = "Parsa Hugo | Personal Blog Template"
 theme = "parsa-hugo"
