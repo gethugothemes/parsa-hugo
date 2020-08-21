@@ -1,4 +1,4 @@
-baseURL = "https://servivo-blog.now-sh"
+baseURL = "https://servivo-blog.netlify.com"
 languageCode = "es"
 paginate = 6
 summaryLength = "10"
