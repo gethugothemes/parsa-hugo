@@ -3,7 +3,7 @@ languageCode = "es"
 paginate = 6
 summaryLength = "10"
 theme = "parsa-hugo"
-title = "Parsa Hugo | Personal Blog Template"
+title = "Blog Servivo"
 [[menu.main]]
 URL = "about"
 name = "About"
