@@ -12,11 +12,17 @@
           </ul>
         </div>
         <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
+          {{ if or  .Site.Params.mobile  .Site.Params.email }}         
           <h6>Contact Info</h6>
           <ul class="list-unstyled">
+            {{ if .Site.Params.mobile }}
             <li class="font-secondary text-dark">Tel : {{ .Site.Params.mobile | markdownify }}</li>
+            {{ end }}
+            {{ if .Site.Params.email }}           
             <li class="font-secondary text-dark">Email : {{ .Site.Params.email | markdownify }}</li>
+            {{ end }}
           </ul>
+          {{ end }}
         </div>
         <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
           <h6>Follow</h6>
