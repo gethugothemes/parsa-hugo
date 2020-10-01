@@ -1,5 +1,5 @@
 # default config
-baseURL = "https://examplesite.org"
+baseurl = "https://examplesite.org"
 languageCode = "en-us"
 title = "Parsa Hugo | Personal Blog Template"
 theme = "parsa-hugo"
@@ -44,13 +44,29 @@ link = "plugins/search/search.js"
 
 # navigation
 [[menu.main]]
+name = "Homepage"
+url = ""
+weight = 1
+hasChildren = true
+
+  [[menu.main]]
+  parent = "Homepage"
+  name = "Homepage 1"
+  url = "homepage/home-1"
+
+  [[menu.main]]
+  parent = "Homepage"
+  name = "Homepage 2"
+  url = "homepage/home-2"
+
+[[menu.main]]
 name = "About"
-URL = "about"
+url = "about"
 weight = 2
 
 [[menu.main]]
 name = "Contact"
-URL = "contact"
+url = "contact"
 weight = 3
 
 # deult parameter
@@ -66,7 +82,7 @@ preloader = true
 # search
 search = true
 # about author
-author = "Themefisher"
+author = "John Doe"
 author_image = "images/banner-img.png"
 bio = "I’m a Freelance Interactive Art Director based in France. Focusing across branding and identity, digital and print."
 # Contact info
@@ -85,19 +101,24 @@ copyright = "Copyright &copy; 2020 a theme by [themefisher.com](themefisher.com)
 enable = true
 access_token = "IGQVJYeUk4YWNIY1h4OWZANeS1wRHZARdjJ5QmdueXN2RFR6NF9iYUtfcGp1NmpxZA3RTbnU1MXpDNVBHTzZAMOFlxcGlkVHBKdjhqSnUybERhNWdQSE5hVmtXT013MEhOQVJJRGJBRURn"
 
+# cookies
+[params.cookies]
+enable = true
+expire_days = 2
+
 # social site
 [[params.social]]
 icon = "ti-facebook"
-URL = "#"
+url = "#"
 
 [[params.social]]
 icon = "ti-twitter-alt"
-URL = "#"
+url = "#"
 
 [[params.social]]
 icon = "ti-linkedin"
-URL = "#"
+url = "#"
 
 [[params.social]]
 icon = "ti-github"
-URL = "#"
+url = "#"

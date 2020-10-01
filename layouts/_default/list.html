@@ -18,7 +18,7 @@
     <div class="row">
       <div class="col-lg-8 mt-5">
         {{ $paginator := .Paginate .Data.Pages }}
-        {{ if eq .Site.Params.layout "1" }}
+        {{ if eq site.Params.layout "1" }}
         <div class="row masonry-container">
           {{ range $paginator.Pages }}
           <div class="col-sm-6 mb-5">
@@ -33,7 +33,7 @@
           {{ end }}
         </div>
 
-        {{ else if (eq .Site.Params.layout "2")}}
+        {{ else if (eq site.Params.layout "2")}}
 
         <div class="row">
           {{ range $i,$p := $paginator.Pages }}
