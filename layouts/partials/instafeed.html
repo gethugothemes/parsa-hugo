@@ -1,9 +1,9 @@
-{{ if .Site.Params.instafeed.enable }}
+{{ if site.Params.instafeed.enable }}
+{{ with site.Params.instafeed }}
 <!-- instagram -->
 <section>
-  <div class="container-fluid px-0">
-    <div class="row no-gutters instagram-slider" id="instafeed" data-accessToken="{{.Site.Params.instafeed.access_token}}"></div>
-  </div>
+  <div class="instagram-slider" id="instafeed" data-accessToken="{{.access_token}}"></div>
 </section>
 <!-- /instagram -->
+{{ end }}
 {{ end }}
