@@ -18,10 +18,10 @@
           <h6>Contact Info</h6>
           <ul class="list-unstyled">
             {{ if .Site.Params.mobile }}
-            <li class="font-secondary text-dark">Tel : {{ .site.Params.mobile | markdownify }}</li>
+            <li class="font-secondary text-dark">Tel : {{ .Site.Params.mobile | markdownify }}</li>
             {{ end }}
             {{ if .Site.Params.email }}           
-            <li class="font-secondary text-dark">Email : {{ .site.Params.email | markdownify }}</li>
+            <li class="font-secondary text-dark">Email : {{ .Site.Params.email | markdownify }}</li>
             {{ end }}
           </ul>
           {{ end }}
