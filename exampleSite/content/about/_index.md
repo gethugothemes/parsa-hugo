@@ -1,8 +1,9 @@
 ---
-title: "About"
-date: 2019-05-14T14:46:10+06:00
-description: "This is meta description"
-image: "images/author.jpg"
+title: About
+date: 2021-01-18T13:00:00+00:00
+description: Read about Devine Secrets Australian made premier aromatic soy candles.
+image: images/author.jpg
+
 ---
 Creative UI/UX desingerr how loves to craft beautiful that satisfy users needs the product. A best idea
 generate for the agency complay smart and elegant design When, while the lovely valley teems with vapour
