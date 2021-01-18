@@ -33,14 +33,4 @@ steps:
   - --allow-unauthenticated
   - $REPO_NAME-$BRANCH_NAME
 © 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+
