@@ -1,0 +1,46 @@
+steps:
+- name: 'gcr.io/cloud-builders/git'
+  entrypoint: '/bin/sh'
+  args:
+  - '-c'
+  - |
+    # Get the theme git submodule
+    THEME_URL=$(git config -f .gitmodules --get-regexp '^submodule\..*\.url$' | awk '{ print $2 }')
+    THEME_DIR=$(git config -f .gitmodules --get-regexp '^submodule\..*\.path$' | awk '{ print $2 }')
+    rm -rf themes
+    git clone $$THEME_URL $$THEME_DIR
+- name: 'gcr.io/cloud-builders/docker'
+  entrypoint: '/bin/sh'
+  args:
+  - '-c'
+  - |
+    docker build -t gcr.io/$PROJECT_ID/$REPO_NAME-$BRANCH_NAME:$COMMIT_SHA -f - . << EOF
+    FROM klakegg/hugo:latest
+    WORKDIR /workspace
+    COPY . /workspace
+    ENTRYPOINT hugo -D -p \$$PORT --bind \$$HUGO_BIND --renderToDisk --disableLiveReload --watch=false serve
+    EOF
+    docker push gcr.io/$PROJECT_ID/$REPO_NAME-$BRANCH_NAME:$COMMIT_SHA
+- name: 'gcr.io/cloud-builders/gcloud'
+  args:
+  - run
+  - deploy
+  - --image=gcr.io/$PROJECT_ID/$REPO_NAME-$BRANCH_NAME:$COMMIT_SHA
+  - --platform=managed
+  - --project=$PROJECT_ID
+  - --region=us-central1
+  - --memory=512Mi
+  - --allow-unauthenticated
+  - $REPO_NAME-$BRANCH_NAME
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
