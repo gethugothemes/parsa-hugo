@@ -28,19 +28,19 @@ weight = 3
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 [params]
-address = "6 rip carl Avenue CA 90733"
-author = "John Doe"
+address = "62 Eliza Cct Port Macquarie NSW 2444"
+author = "L Wallace"
 author_image = "images/banner-img.png"
-bio = "I’m a Freelance Interactive Art Director based in France. Focusing across branding and identity, digital and print."
+bio = "I’m a Mum and love making quality aromatic Australian soy candles and melts"
 contact_form_action = "#"
-copyright = "Copyright &copy; 2020 a theme by [themefisher.com](themefisher.com)"
+copyright = "Copyright &copy; 2021 Devine Secrets"
 description = "This is meta description"
-email = "exmaple@ymail.com"
+email = "exmaple@gmail.com"
 google_analitycs_id = "Your ID"
 home = "Home"
 layout = "1"
 logo = "images/logo.png"
-mobile = "+90 000 333 22"
+mobile = "+61 000 333 22"
 preloader = true
 search = true
 [params.cookies]
@@ -79,7 +79,7 @@ link = "plugins/search/mark.js"
 link = "plugins/search/search.js"
 [[params.social]]
 icon = "ti-facebook"
-url = "#"
+url = "https://www.facebook.com/devinesecretcandles"
 [[params.social]]
 icon = "ti-twitter-alt"
 url = "#"
