@@ -1,0 +1,40 @@
+steps:
+- name: 'gcr.io/cloud-builders/git'
+  entrypoint: '/bin/sh'
+  args:
+  - '-c'
+  - |
+    # Get the theme git submodule
+    THEME_URL=$(git config -f .gitmodules --get-regexp '^submodule\..*\.url$' | awk '{ print $2 }')
+    THEME_DIR=$(git config -f .gitmodules --get-regexp '^submodule\..*\.path$' | awk '{ print $2 }')
+    rm -rf themes
+    git clone $$THEME_URL $$THEME_DIR
+- name: 'gcr.io/cloud-builders/curl'
+  entrypoint: '/bin/sh'
+  args:
+  - '-c'
+  - |
+    curl -sL https://github.com/gohugoio/hugo/releases/download/v0.69.2/hugo_0.69.2_Linux-64bit.tar.gz | tar -zxv
+    ./hugo
+- name: 'gcr.io/cloud-builders/wget'
+  entrypoint: '/bin/sh'
+  args:
+  - '-c'
+  - |
+    # Get firebase CLI
+    wget -O firebase https://firebase.tools/bin/linux/latest
+    chmod +x firebase
+    # Deploy site
+    ./firebase deploy --project=$PROJECT_ID --only=hosting
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
