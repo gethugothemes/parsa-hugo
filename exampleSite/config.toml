@@ -80,12 +80,3 @@ link = "plugins/search/search.js"
 [[params.social]]
 icon = "ti-facebook"
 url = "https://www.facebook.com/devinesecretcandles"
-[[params.social]]
-icon = "ti-twitter-alt"
-url = "#"
-[[params.social]]
-icon = "ti-linkedin"
-url = "#"
-[[params.social]]
-icon = "ti-github"
-url = "#"
