@@ -9,6 +9,7 @@ steps:
     THEME_DIR=$(git config -f .gitmodules --get-regexp '^submodule\..*\.path$' | awk '{ print $2 }')
     rm -rf themes
     git clone $$THEME_URL $$THEME_DIR
+
 - name: 'gcr.io/cloud-builders/docker'
   entrypoint: '/bin/sh'
   args:
@@ -21,6 +22,7 @@ steps:
     ENTRYPOINT hugo -D -p \$$PORT --bind \$$HUGO_BIND --renderToDisk --disableLiveReload --watch=false serve
     EOF
     docker push gcr.io/$PROJECT_ID/$REPO_NAME-$BRANCH_NAME:$COMMIT_SHA
+
 - name: 'gcr.io/cloud-builders/gcloud'
   args:
   - run
@@ -32,5 +34,3 @@ steps:
   - --memory=512Mi
   - --allow-unauthenticated
   - $REPO_NAME-$BRANCH_NAME
-© 2021 GitHub, Inc.
-
