@@ -5,6 +5,8 @@ title = "Parsa Hugo | Personal Blog Template"
 theme = "parsa-hugo"
 summaryLength = "10"
 paginate = 6
+# google analytics
+googleAnalytics = "" # example : UA-123-45
 
 # output
 [outputs]
@@ -91,8 +93,6 @@ email = "exmaple@ymail.com"
 address = "6 rip carl Avenue CA 90733"
 # Contact Form Action
 contact_form_action = "#"
-# Google Analitycs
-google_analitycs_id = "Your ID"
 # copyright
 copyright = "Copyright &copy; 2020 a theme by [themefisher.com](themefisher.com)"
 

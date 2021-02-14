@@ -34,4 +34,10 @@
 </section>
 <!-- /search result -->
 
+
+{{ "<!-- Search index -->" | safeHTML }}
+<script>
+  var indexURL = {{"index.json" | absURL}}
+</script>
+
 {{ end }}

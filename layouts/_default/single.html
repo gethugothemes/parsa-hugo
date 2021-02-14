@@ -1,5 +1,8 @@
 {{ define "main" }}
 
+<!-- checking blog -->
+{{ if or (eq .Section "post") (eq .Section "posts") (eq .Section "blog") (eq .Section "blogs") (eq .Section "news") (eq .Section "categories") (eq .Section "tags") }}
+
 <!-- page-title -->
 <section class="section bg-secondary">
   <div class="container">
@@ -31,5 +34,21 @@
   </div>
 </section>
 <!-- /blog single -->
+
+<!-- regular page -->
+{{ else }}
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h2 class="mb-4">{{.Title }}</h2>
+        {{with .Params.image}}<img src="{{. | absURL }}" alt="{{site.Params.author}}" class="img-fluid w-100 mb-4">{{end}}
+        <div class="content">{{ .Content }}</div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+<!-- /regular page -->
 
 {{ end }}
