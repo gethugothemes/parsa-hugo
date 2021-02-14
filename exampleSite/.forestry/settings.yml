@@ -14,15 +14,12 @@ sections:
 - type: document
   path: exampleSite/content/about.md
   label: About
-  match: "**/*"
 - type: document
   path: exampleSite/content/contact.md
   label: Contact
-  match: "**/*"
 - type: document
   path: exampleSite/config.toml
   label: Configuration
-  match: "**/*"
 upload_dir: exampleSite/static/images
 public_path: "/images"
 front_matter_path: ''
