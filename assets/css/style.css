@@ -852,5 +852,13 @@ blockquote {
 .tag-list li a:hover {
   color: #ff6f00;
 }
+.instagram-slider{
+  height: 200px;
+  overflow: hidden;
+}
 
-/*# sourceMappingURL=maps/style.css.map */
+.instagram-post img{
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
