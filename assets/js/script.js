@@ -60,7 +60,7 @@
       get: 'user',
       resolution: 'low_resolution',
       accessToken: accessToken,
-      template: '<div class="instagram-post"><a href="{{link}}" target="_blank"><img class="img-fluid w-100" src="{{image}}" alt="instagram-image"></a></div>'
+      template: '<a class="instagram-post" href="{{link}}" target="_blank"><img class="img-fluid w-100" src="{{image}}" alt="instagram-image"></a>'
     });
     userFeed.run();
   }

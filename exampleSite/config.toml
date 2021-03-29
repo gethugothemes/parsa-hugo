@@ -109,16 +109,16 @@ expire_days = 2
 # social site
 [[params.social]]
 icon = "ti-facebook"
-url = "#"
+link = "https://facebook.com/themefisher"
 
 [[params.social]]
 icon = "ti-twitter-alt"
-url = "#"
+link = "#"
 
 [[params.social]]
 icon = "ti-linkedin"
-url = "#"
+link = "#"
 
 [[params.social]]
 icon = "ti-github"
-url = "#"
+link = "#"
