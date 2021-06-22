@@ -1,4 +1,4 @@
-baseurl = "https://blog.attreq.com"
+baseurl = "https://attreq-blog.netlify.com"
 googleAnalytics = ""
 languageCode = "en-us"
 paginate = 6
