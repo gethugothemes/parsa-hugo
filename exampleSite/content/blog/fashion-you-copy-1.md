@@ -2,7 +2,6 @@
 categories = ["Gyan"]
 date = 2021-06-07T18:30:00Z
 description = "This is the meta description"
-draft = true
 image = "/images/fashion_and_you1.jpeg"
 tags = ["Fashion Struggles ", "Wardrobe Organization", "Clothes Matter", "Fast Fashion", "Sustainable Fashion"]
 title = "Fashion & You"
