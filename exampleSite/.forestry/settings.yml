@@ -4,6 +4,11 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: document
+  path: exampleSite/content/homepage/home-1
+  label: Blog Home
+  match: "**/*"
+  read_only: false
 - type: directory
   path: exampleSite/content/blog
   label: Post
@@ -11,12 +16,6 @@ sections:
   match: "*"
   templates:
   - post
-- type: document
-  path: exampleSite/content/about.md
-  label: About
-- type: document
-  path: exampleSite/content/contact.md
-  label: Contact
 - type: document
   path: exampleSite/config.toml
   label: Configuration
