@@ -24,5 +24,6 @@ fields:
   name: type
   label: type
 pages:
+- exampleSite/content/blog/fashion-you-copy-1.md
 - exampleSite/content/blog/fashion-you-copy.md
 - exampleSite/content/blog/fashion-you.md
