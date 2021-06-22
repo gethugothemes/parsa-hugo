@@ -5,7 +5,7 @@ description = "This is the meta description"
 draft = true
 image = "/images/fashion_and_you1.jpeg"
 tags = ["Fashion Struggles ", "Wardrobe Organization", "Clothes Matter", "Fast Fashion", "Sustainable Fashion"]
-title = "Fashion & You-(copy)"
+title = "Fashion & You"
 type = "featured"
 
 +++
