@@ -23,3 +23,5 @@ fields:
 - type: text
   name: type
   label: type
+pages:
+- exampleSite/content/blog/fashion-you.md
