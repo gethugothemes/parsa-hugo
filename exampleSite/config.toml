@@ -6,26 +6,27 @@ summaryLength = "10"
 theme = "parsa-hugo"
 title = "ATTREQ Blog | Amazing Outfits, Flamboyant Wardrobes, Mindful Comsumption, Mind-boggling Inspiration, Fashion News and more"
 [[menu.main]]
-hasChildren = true
-name = "Homepage"
-url = ""
+name = "Instagram"
+parent = "Follow Us!"
+url = "instagram.com/heyattreq"
 weight = 1
 [[menu.main]]
-name = "Homepage 1"
-parent = "Homepage"
-url = "homepage/home-1"
-[[menu.main]]
-name = "Homepage 2"
-parent = "Homepage"
-url = "homepage/home-2"
-[[menu.main]]
-name = "About"
-url = "about"
+name = "LinkedIn"
+parent = "Follow Us!"
+url = "https://linkedin.com/company/attreq"
 weight = 2
 [[menu.main]]
-name = "Contact"
-url = "contact"
+hasChildren = true
+name = "Follow Us!"
 weight = 3
+[[menu.main]]
+name = "Contact"
+url = "attreq.com/index.html#contact"
+weight = 2
+[[menu.main]]
+name = "About"
+url = "attreq.com/about.html"
+weight = 1
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 [params]
