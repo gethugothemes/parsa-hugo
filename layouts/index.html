@@ -6,7 +6,7 @@
   <div class="container-fluid p-sm-0">
     <div class="row featured-post-slider">
       {{ range (where site.RegularPages "Type" "featured")}}
-      <div class="col-lg-3 col-sm-6 mb-2 mb-lg-0 px-1">
+      <div class="col-lg-4 col-sm-6 mb-2 mb-lg-0 px-1">
         <article class="card bg-dark text-center text-white border-0 rounded-0">
           <img class="card-img rounded-0 img-fluid w-100" src="{{.Params.Image | absURL}}" alt="post-thumb">
           <div class="card-img-overlay">
@@ -60,7 +60,7 @@
 <!-- blog post -->
 <section class="section">
   <div class="container">
-    {{ $paginator := .Paginate (where site.RegularPages "Type" "post") }}
+    {{ $paginator := .Paginate (where site.RegularPages "Type" "in" "post, featured") }}
     {{ if eq site.Params.layout "1" }}
     <div class="row masonry-container">
       {{ range $paginator.Pages }}
@@ -69,6 +69,18 @@
           <img class="img-fluid mb-4" src="{{.Params.Image | absURL }}" alt="post-thumb">
           <p class="text-uppercase mb-2">{{range .Params.Categories}}{{. | humanize}}{{end}}</p>
           <h4 class="title-border"><a class="text-dark" href="{{.Permalink}}">{{.Title}}</a></h4>
+          <!-- <p class="mb-2">By {{range .Params.Authors}}{{. | humanize}}{{end}}</p>
+          {{range .Params.Authors }}
+          {{with $.Site.GetPage ".Params.Authors" (printf "Authors/%s" (urlize .)) }}
+            <figure>
+              <p>{{ .Params.Authors.photo }}</p>
+              <img src="{{ .Params.Authors.photo }}" alt=""/>
+              <figcaption>
+                <a href="{{ .Permalink }}">{{ .Params.Authors.name }}{{.}}</a>
+              </figcaption>
+            </figure>
+          {{ end }}
+          {{ end }} -->
           <p>{{.Summary}}</p>
           <a href="{{.Permalink}}" class="btn btn-transparent">read more</a>
         </article>

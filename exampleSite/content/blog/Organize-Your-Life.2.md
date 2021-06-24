@@ -1,17 +1,17 @@
 ---
-title: "Charming Evening Field"
+title: "Organize Your Life With 10 Simple rule"
 date: 2019-05-14T14:46:10+06:00
 description: "This is meta description"
-type: "post"
-image: "images/masonary-post/post-1.jpg"
-categories: 
-  - "Food"
-tags:
-  - "Photos"
-  - "Food"
+type: "featured"
+image: "images/featured-post/post-3.jpg"
 authors:
-  - "Shreya Sinha"
+  - "Piyush Yadav"
+categories: 
+  - "Fashion"
+tags:
+  - "Fashion"
 ---
+
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
 dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex

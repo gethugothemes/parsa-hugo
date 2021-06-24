@@ -2,8 +2,18 @@
   <div class="section">
     <div class="container">
       <div class="row">
-        <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
-          <a href="{{site.BaseURL}}"><img src="{{site.Params.logo | absURL }}" alt="{{site.Title}}" class="img-fluid"></a>
+        <div class="col-md-12 text-center">
+          <a href="{{site.BaseURL}}"><h2>{{ site.Params.logo }}</h2></a>
+          <ul class="list-inline d-inline-block pt-4">
+            {{ range site.Params.social }}
+            <li class="list-inline-item"><a href="{{ .link | safeURL }}" class="text-dark"><h4><i class="{{ .icon }}"></i></h4></a></li>
+            {{ end }}
+          </ul>
+        </div>
+        
+        <!-- <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
+          <!- - <a href="{{site.BaseURL}}"><img src="{{site.Params.logo | absURL }}" alt="{{site.Title}}" class="img-fluid"></a> - ->
+          <a href="{{site.BaseURL}}"><h5>{{ site.Params.logo }}</h5></a>
         </div>
         <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
           {{ if .Site.Params.address }}
@@ -33,7 +43,7 @@
             <li class="list-inline-item"><a href="{{ .link | safeURL }}" class="text-dark"><i class="{{ .icon }}"></i></a></li>
             {{ end }}
           </ul>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>

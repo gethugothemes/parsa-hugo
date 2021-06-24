@@ -1,0 +1,35 @@
+{{ define "main" }}
+
+<section class="section">
+  <div class="container">
+    <h1>Authors</h1>
+    <div class="row masonry-container">
+      {{ range .Data.Pages }}
+      <div class="col-lg-4 col-sm-6 mb-5">
+        <article class="text-center">
+          <img class="img-fluid mb-4" src="{{ .Params.Photo | absURL }}" alt="post-thumb">
+          <!-- <p class="text-uppercase mb-2">{{range .Params.Categories}}{{. | humanize}}{{end}}</p> -->
+          <h4 class="title-border"><a class="text-dark" href="{{.Permalink}}">{{.Params.name}}</a></h4>
+          <!-- <p class="mb-2">By {{range .Params.Authors}}{{. | humanize}}{{end}}</p>
+          {{range .Params.Authors }}
+          {{with $.Site.GetPage ".Params.Authors" (printf "Authors/%s" (urlize .)) }}
+            <figure>
+              <p>{{ .Params.Authors.photo }}</p>
+              <img src="{{ .Params.Authors.photo }}" alt=""/>
+              <figcaption>
+                <a href="{{ .Permalink }}">{{ .Params.Authors.name }}{{.}}</a>
+              </figcaption>
+            </figure>
+          {{ end }}
+          {{ end }} -->
+          <!-- <p>{{.Summary}}</p> -->
+          <a href="{{.Permalink}}" class="btn btn-transparent">read more</a>
+        </article>
+        
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{end}}

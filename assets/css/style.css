@@ -522,6 +522,22 @@ textarea.form-control {
           transform: translateY(-50%);
 }
 
+.card {
+  width: 100%;
+  padding-top: 100%; /* 1:1 Aspect Ratio */
+  position: relative;
+}
+
+.card-img {
+  object-fit: cover;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
 .card-img-overlay::before {
   position: absolute;
   content: "";
@@ -812,7 +828,8 @@ blockquote {
 }
 
 .content img{
-  max-width: 100%;
+  /* max-width: 100%; */
+  width: 100%;
   height: auto;
 }
 

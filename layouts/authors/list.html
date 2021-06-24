@@ -1,0 +1,80 @@
+{{ define "main" }}
+
+<!-- hero area -->
+<section class="hero-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 align-self-end">
+        <h1 class="mb-0">Meet</h1>
+        <h2 class="mb-100 title-border-lg">{{ .Params.name }}<i></i></h2>
+        <p class="mb-80 mr-5">{{.Content}}</p>
+        <span class="font-secondary text-dark mr-3 mr-sm-5">
+          <ul class="list-inline d-inline-block mb-5">
+            <li class="list-inline-item mx-3">
+              <a href="https://instagram.com/{{.Params.instagram}}" target="_blank" class="text-dark mb-5">Follow {{ .Params.name }}!</a>
+            </li>
+          </ul>
+        </span>
+      </div>
+      <div class="col-lg-6 text-right">
+        <img class="img-fluid" src="{{ .Params.photo | absURL}}" alt="banner-image">
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /hero area -->
+
+<!-- blog post -->
+<section class="section">
+  <div class="container">
+    <h2>Articles</h2>
+    <div class="row masonry-container">
+      {{$authorvar := (slice .Params.name)}}
+      {{ range where $.Site.Pages ".Params.authors" "intersect" $authorvar }}
+      <div class="col-lg-4 col-sm-6 mb-5">
+        <article class="text-center">
+          <img class="img-fluid mb-4" src="{{.Params.Image | absURL }}" alt="post-thumb">
+          <p class="text-uppercase mb-2">{{range .Params.Categories}}{{. | humanize}}{{end}}</p>
+          <h4 class="title-border"><a class="text-dark" href="{{.Permalink}}">{{.Title}}</a></h4>
+          <!-- <p class="mb-2">By {{range .Params.Authors}}{{. | humanize}}{{end}}</p>
+          {{range .Params.Authors }}
+          {{with $.Site.GetPage ".Params.Authors" (printf "Authors/%s" (urlize .)) }}
+            <figure>
+              <p>{{ .Params.Authors.photo }}</p>
+              <img src="{{ .Params.Authors.photo }}" alt=""/>
+              <figcaption>
+                <a href="{{ .Permalink }}">{{ .Params.Authors.name }}{{.}}</a>
+              </figcaption>
+            </figure>
+          {{ end }}
+          {{ end }} -->
+          <p>{{.Summary}}</p>
+          <a href="{{.Permalink}}" class="btn btn-transparent">read more</a>
+        </article>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<!-- <h1>{{ .Params.name }}</h1>
+<img src="{{ .Params.photo }}" alt=""/>
+
+<h2>Bio</h2>
+{{ .Content }}
+{{ with .Params.twitter }}
+  <p>
+    <a href="https://twitter.com/{{ substr . 1 }}">
+      Follow {{ $.Params.name }} on Twitter
+    </a>
+  </p>
+{{ end }}
+
+<h2>Articles</h2>
+<ul>
+{{ range .Data.Pages }}
+    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+{{ end }}
+</ul> -->
+
+{{end}}

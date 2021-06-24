@@ -8,7 +8,7 @@ title = "ATTREQ Blog | Amazing Outfits, Flamboyant Wardrobes, Mindful Comsumptio
 [[menu.main]]
 name = "Instagram"
 parent = "Follow Us!"
-url = "instagram.com/heyattreq"
+url = "https://instagram.com/heyattreq"
 weight = 1
 [[menu.main]]
 name = "LinkedIn"
@@ -21,26 +21,31 @@ name = "Follow Us!"
 weight = 3
 [[menu.main]]
 name = "Contact"
-url = "attreq.com/index.html#contact"
+url = "https://attreq.com/index.html#contact"
 weight = 2
 [[menu.main]]
 name = "About"
-url = "attreq.com/about.html"
+url = "https://attreq.com/about.html"
 weight = 1
 [outputs]
 home = ["HTML", "RSS", "JSON"]
+[taxonomies]
+author = "authors"
+tag = "tags"
+category = "categories"
+disableKinds = ["taxonomyTerm"]
 [params]
 address = "6 rip carl Avenue CA 90733"
-author = "John Doe"
+# author = "John Doe"
 author_image = "images/banner-img.png"
 bio = "I’m a Freelance Interactive Art Director based in France. Focusing across branding and identity, digital and print."
 contact_form_action = "#"
-copyright = "Copyright &copy; 2020 a theme by [themefisher.com](themefisher.com)"
+copyright = "Created with ❤️ in DEL. &copy; 2021 [ATTREQ Pvt. Ltd.](https://attreq.com)"
 description = "This is meta description"
 email = "exmaple@ymail.com"
 home = "Home"
 layout = "1"
-logo = "images/logo.png"
+logo = "blog.ATTREQ"
 mobile = "+90 000 333 22"
 preloader = true
 search = true
@@ -78,15 +83,21 @@ link = "plugins/search/fuse.min.js"
 link = "plugins/search/mark.js"
 [[params.plugins.js]]
 link = "plugins/search/search.js"
+# [[params.social]]
+# icon = "ti-facebook"
+# link = ""
 [[params.social]]
-icon = "ti-facebook"
-link = "https://facebook.com/themefisher"
-[[params.social]]
-icon = "ti-twitter-alt"
+icon = "ti-instagram"
 link = "#"
+[[params.social]]
+icon = "ti-medium"
+link = "#"
+# [[params.social]]
+# icon = "ti-twitter-alt"
+# link = "#"
 [[params.social]]
 icon = "ti-linkedin"
 link = "#"
-[[params.social]]
-icon = "ti-github"
-link = "#"
+# [[params.social]]
+# icon = "ti-github"
+# link = "#"
