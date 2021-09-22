@@ -94,7 +94,7 @@ address = "6 rip carl Avenue CA 90733"
 # Contact Form Action
 contact_form_action = "#"
 # copyright
-copyright = "Copyright &copy; 2020 a theme by [themefisher.com](themefisher.com)"
+copyright = "Copyright &copy; 2020 a theme by [themefisher.com](https://themefisher.com)"
 
 # Instagram feed
 [params.instafeed]
