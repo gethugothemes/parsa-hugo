@@ -21,9 +21,7 @@
 ---
 
 <p align="center">
-
-
-![parsa](images/tn.png)
+<img src="https://demo.gethugothemes.com/thumbnails/parsa.webp" alt="screenshot" width="100%">
 </p>
 
 ---
