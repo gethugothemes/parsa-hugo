@@ -37,7 +37,7 @@
         <span class="font-secondary text-dark mr-3 mr-sm-5">Follow me :</span>
         <ul class="list-inline d-inline-block mb-5">
           {{ range site.Params.social }}
-          <li class="list-inline-item mx-3"><a href="{{.URL}}" class="text-dark"><i class="{{.icon}}"></i></a></li>
+          <li class="list-inline-item mx-3"><a href="{{ .link | safeURL }}" class="text-dark"><i class="{{.icon}}"></i></a></li>
           {{ end }}
         </ul>
       </div>
