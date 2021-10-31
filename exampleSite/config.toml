@@ -12,6 +12,9 @@ googleAnalytics = "" # example : UA-123-45
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 
+[markup.goldmark.renderer]
+unsafe= true
+
 # CSS Plugins
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
