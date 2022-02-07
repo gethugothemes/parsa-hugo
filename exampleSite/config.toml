@@ -1,5 +1,5 @@
 # default config
-baseurl = "https://examplesite.org"
+baseurl = "https://demo.gethugothemes.com/parsa/examplesite/"
 languageCode = "en-us"
 title = "Parsa Hugo | Personal Blog Template"
 theme = "parsa-hugo"
@@ -13,7 +13,7 @@ googleAnalytics = "" # example : UA-123-45
 home = ["HTML", "RSS", "JSON"]
 
 [markup.goldmark.renderer]
-unsafe= true
+unsafe = true
 
 # CSS Plugins
 [[params.plugins.css]]
@@ -54,24 +54,24 @@ url = ""
 weight = 1
 hasChildren = true
 
-  [[menu.main]]
-  parent = "Homepage"
-  name = "Homepage 1"
-  url = "homepage/home-1"
+[[menu.main]]
+parent = "Homepage"
+name = "Homepage 1"
+url = "homepage/home-1/"
 
-  [[menu.main]]
-  parent = "Homepage"
-  name = "Homepage 2"
-  url = "homepage/home-2"
+[[menu.main]]
+parent = "Homepage"
+name = "Homepage 2"
+url = "homepage/home-2/"
 
 [[menu.main]]
 name = "About"
-url = "about"
+url = "about/"
 weight = 2
 
 [[menu.main]]
 name = "Contact"
-url = "contact"
+url = "contact/"
 weight = 3
 
 # deult parameter
