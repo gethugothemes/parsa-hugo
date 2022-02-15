@@ -123,6 +123,6 @@ If you need to customize the theme or complete website development from scratch,
 
 <!-- premium themes -->
 ## Premium Themes By Us
-| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.webp)](https://gethugothemes.com/bundle) | [![Reader](https://demo.gethugothemes.com/thumbnails/reader.webp)](https://gethugothemes.com/products/reader/) | [![logbook](https://demo.gethugothemes.com/thumbnails/logbook.webp)](https://gethugothemes.com/products/logbook-hugo/) |
+| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.webp)](https://gethugothemes.com/bundle/?utm_source=parsa_github&utm_medium=referral&utm_campaign=github_theme_readme) | [![Reader](https://demo.gethugothemes.com/thumbnails/reader.webp)](https://gethugothemes.com/products/reader/) | [![logbook](https://demo.gethugothemes.com/thumbnails/logbook.webp)](https://gethugothemes.com/products/logbook-hugo/) |
 |:---:|:---:|:---:|
-| **Premium Theme Bundle (40+)** | **Reader** | **Logbook** |
+| **Get 50+ Premium Hugo Themes Bundle** | **Reader** | **Logbook** |
