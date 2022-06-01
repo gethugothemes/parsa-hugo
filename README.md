@@ -21,11 +21,13 @@
 ---
 
 <p align="center">
-<img src="https://demo.gethugothemes.com/thumbnails/parsa.webp" alt="screenshot" width="100%">
+<img src="https://demo.gethugothemes.com/thumbnails/parsa.png" alt="screenshot" width="100%">
 </p>
 
 ---
+
 ## Features
+
 - Google analytics ssupport
 - CSS and JS bundle with hugo pipe
 - Netlify settings predefine
@@ -41,7 +43,6 @@
 - Open graph meta tag
 - Twitter card meta tag
 
-
 ## Local development
 
 ```bash
@@ -54,6 +55,7 @@ $ cd parsa-hugo/exampleSite/
 # Start local dev server
 $ hugo server --themesDir ../..
 ```
+
 Or Check out [Full Documentation](https://docs.gethugothemes.com/parsa/?ref=github).
 
 ## Content Management System
@@ -66,6 +68,7 @@ repository in Forestry](https://app.forestry.io/quick-start?repo=themefisher/par
 you will be able to edit and preview your site ✨.
 
 Any changes you make in Forestry will be committed back to the repo and deployed if you use [Netlify](#netlify).
+
 ## Deployment and hosting
 
 [![Deploy to
@@ -74,11 +77,13 @@ Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com
 Follow the steps.
 
 ## Prefer a video? (Hugo + Netlify + Forestry)
+
 Build your website with **Parsa Hugo** theme by following these easy steps (No Coding Required!)
 [Video Tutorial](https://youtu.be/ResipmZmpDU).
 
 <!-- reporting issue -->
 ## Reporting Issues
+
 We use GitHub Issues as the official bug tracker for the Parsa Template. Please Search [existing
 issues](https://github.com/themefisher/parsa-hugo/issues). Someone may have already reported the same problem.
 If your problem or idea has not been addressed yet, feel free to [open a new
@@ -86,12 +91,11 @@ issue](https://github.com/themefisher/parsa-hugo/issues).
 
 <!-- ## Parsa Hugo Powered Websites
 
-
-
 View all the websites powered by Parsa Hugo [here](https://github.com/themefisher/parsa-hugo/wiki/All-parsa-hugo-Powered-Websites). Want to submit your own website powered by Parsa Hugo? You can submit it [here](https://github.com/themefisher/parsa-hugo/discussions/51). -->
 
 <!-- licence -->
 ## License
+
 Copyright &copy; Designed by [Themefisher](https://themefisher.com) & Developed by
 [Gethugothemes](https://gethugothemes.com)
 
@@ -102,6 +106,7 @@ share those images.
 
 <!-- resources -->
 ## Special Thanks
+
 - [Bootstrap](https://getbootstrap.com)
 - [Jquery](https://jquery.com)
 - [Themify Icons](https://themify.me/themify-icons)
@@ -114,15 +119,16 @@ share those images.
 - [Google Fonts](https://fonts.google.com/)
 - [All Contributors](https://github.com/themefisher/parsa-hugo/graphs/contributors)
 
-
 ## Hire Us
-Besides developing unique, blazing-fast Hugo themes, we also provide customized services. We specialize in creating affordable, high-quality static websites based on Hugo. 
 
-If you need to customize the theme or complete website development from scratch, you can hire us. **Check Our 
+Besides developing unique, blazing-fast Hugo themes, we also provide customized services. We specialize in creating affordable, high-quality static websites based on Hugo.
+
+If you need to customize the theme or complete website development from scratch, you can hire us. **Check Our
 [services](https://gethugothemes.com/services/?utm_source=parsa_github&utm_medium=referral&utm_campaign=github_theme_readme)**
 
 <!-- premium themes -->
 ## Premium Themes By Us
-| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.webp)](https://gethugothemes.com/bundle/?utm_source=parsa_github&utm_medium=referral&utm_campaign=github_theme_readme) | [![Reader](https://demo.gethugothemes.com/thumbnails/reader.webp)](https://gethugothemes.com/products/reader/) | [![logbook](https://demo.gethugothemes.com/thumbnails/logbook.webp)](https://gethugothemes.com/products/logbook-hugo/) |
+
+| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.png)](https://gethugothemes.com/bundle/?utm_source=parsa_github&utm_medium=referral&utm_campaign=github_theme_readme) | [![Reader](https://demo.gethugothemes.com/thumbnails/reader.png)](https://gethugothemes.com/products/reader/) | [![logbook](https://demo.gethugothemes.com/thumbnails/logbook.png)](https://gethugothemes.com/products/logbook-hugo/) |
 |:---:|:---:|:---:|
 | **Get 50+ Premium Hugo Themes Bundle** | **Reader** | **Logbook** |
