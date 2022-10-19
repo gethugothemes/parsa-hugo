@@ -1,4 +1,9 @@
-<h1 align=center>Parsa Hugo | <a target="_blank" href="https://demo.gethugothemes.com/parsa" rel="nofollow">Demo</a> | <a  target="_blank" href="https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fdemo.gethugothemes.com%2Fparsa%2F">Page Speed (83%)</a></h1>
+<h1 align=center>Parsa Hugo</h1>
+
+<p align=center>Parsa is a gorgeous blog theme that is ideal for representing your personal blog website.  </p>
+<h2 align="center"> <a target="_blank" href="https://demo.gethugothemes.com/parsa" rel="nofollow">Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fdemo.gethugothemes.com%2Fparsa%2Fsite%2F&form_factor=desktopF">Page Speed (91%)</a></h2>
+
+
 
 <p align=center>
   <a href="https://github.com/gohugoio/hugo/releases/tag/v0.62.2" alt="Contributors">
@@ -26,7 +31,7 @@
 
 ---
 
-## Features
+## Key Features
 
 - Google analytics ssupport
 - CSS and JS bundle with hugo pipe
@@ -129,6 +134,6 @@ If you need to customize the theme or complete website development from scratch,
 <!-- premium themes -->
 ## Premium Themes By Us
 
-| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.png)](https://gethugothemes.com/bundle/?utm_source=parsa_github&utm_medium=referral&utm_campaign=github_theme_readme) | [![Reader](https://demo.gethugothemes.com/thumbnails/reader.png)](https://gethugothemes.com/products/reader/) | [![logbook](https://demo.gethugothemes.com/thumbnails/logbook.png)](https://gethugothemes.com/products/logbook-hugo/) |
+| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.png?)](https://gethugothemes.com/bundle/?utm_source=parsa_github&utm_medium=referral&utm_campaign=github_theme_readme) | [![Reader](https://demo.gethugothemes.com/thumbnails/reader.png)](https://gethugothemes.com/products/reader/) | [![logbook](https://demo.gethugothemes.com/thumbnails/logbook.png)](https://gethugothemes.com/products/logbook-hugo/) |
 |:---:|:---:|:---:|
-| **Get 50+ Premium Hugo Themes Bundle** | **Reader** | **Logbook** |
+| **Get 55+ Premium Hugo Themes Bundle** | **Reader** | **Logbook** |
