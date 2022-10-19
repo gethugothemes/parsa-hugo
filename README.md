@@ -44,7 +44,7 @@
 - Post reading time calculator
 - Masonary support
 - Multiple author and single author available
-- Google page speed optimized ( 83% )
+- Google page speed optimized ( 91% )
 - Open graph meta tag
 - Twitter card meta tag
 
@@ -96,7 +96,9 @@ issue](https://github.com/themefisher/parsa-hugo/issues).
 
 <!-- ## Parsa Hugo Powered Websites
 
-View all the websites powered by Parsa Hugo [here](https://github.com/themefisher/parsa-hugo/wiki/All-parsa-hugo-Powered-Websites). Want to submit your own website powered by Parsa Hugo? You can submit it [here](https://github.com/themefisher/parsa-hugo/discussions/51). -->
+View all the websites powered by Parsa Hugo [here](https://github.com/themefisher/parsa-hugo/wiki/All-parsa-hugo-Powered-Websites) -->
+## Add your website to the Gethugothemes showcase
+Want to submit your own website powered by Parsa Hugo to the Gethugothemes showcase? You can submit it [here](https://gethugothemes.com/showcase).
 
 <!-- licence -->
 ## License
