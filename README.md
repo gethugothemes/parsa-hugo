@@ -32,7 +32,7 @@
 ---
 
 ## 🔑Key Features
-- 📄 6+ Pre-designed pages
+- 📄 8+ Pre-designed pages
 - 📊 Google Analytics Support
 - 📦 CSS and JS Bundle with Hugo Pipe
 - ⚙️ Netlify Settings Predefined
@@ -47,13 +47,15 @@
 - 🌐 Open Graph Meta Tag
 - 🐦 Twitter Card Meta Tag
 
-## 📄 6+ Pre-designed pages
+## 📄 8+ Pre-designed pages
 - 🏠Multi Home Page
 - 👤About
 - 📞Contact
-- 👤Author Page
 - 📝 Blog Pages
 - 📄 Blog Single Pages
+- 🗂️ Category Page
+- 📄 Category Single Page
+- 🔖 Tag Pag
 
 ## 🔧Local development
 
