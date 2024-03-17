@@ -1,10 +1,12 @@
 <div class="col-lg-4">
+  {{ if site.Params.search }}
   <div class="widget search-box">
     <form action="{{ site.BaseURL }}/search">
       <i class="ti-search"></i>
       <input class="form-control border-0 pl-5" type="search" placeholder="Search" id="search-query" name="s">
     </form>
   </div>
+  {{ end }}
   <div class="widget">
     <h6 class="mb-4">LATEST POST</h6>
     {{ range first 3 ( where site.Pages "Type" "post") }}
