@@ -30,11 +30,12 @@
       </ul>
       {{ if site.Params.search }}
       {{ "<!-- search -->" | safeHTML }}
-      <form class="form-inline position-relative ml-lg-4" action="{{ site.BaseURL }}/search/">
+      <form class="form-inline position-relative ml-lg-4" action="{{ site.BaseURL }}search/">
         <input class="form-control px-0 w-100" type="search" placeholder="Search" id="search-query" name="s">
         <button class="search-icon" type="submit"><i class="ti-search text-dark"></i></button>
       </form>
       {{ end }}
     </div>
   </nav>
+  <link rel="alternate" type="application/rss+xml" href="{{.Site.BaseURL }}/index.xml" title="{{ .Site.Title }}">
 </header>
