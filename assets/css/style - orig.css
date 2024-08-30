@@ -863,7 +863,4 @@ blockquote {
   object-fit: cover;
 }
 
-/* Mikes Modifications */
-.slick-track {
-  max-width: 1500px;
-}
+

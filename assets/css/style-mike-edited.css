@@ -26,7 +26,7 @@ body {
 
 p, .paragraph {
   font-weight: 400;
-  font-size: 15px;
+  font-size: 20px;
   line-height: 1.5;
   font-family: "Open Sans", sans-serif;
 }
@@ -812,7 +812,7 @@ blockquote {
 }
 
 .content img{
-  max-width: 100%;
+  max-width: 40%;
   height: auto;
 }
 
@@ -863,7 +863,7 @@ blockquote {
   object-fit: cover;
 }
 
-/* Mikes Modifications */
-.slick-track {
-  max-width: 1500px;
+/*mods by Mike*/
+.container {
+  max-width: 1400px;
 }
