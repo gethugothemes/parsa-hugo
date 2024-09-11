@@ -25,7 +25,7 @@
           <li class="list-inline-item"><i class="ti-calendar mr-2"></i>{{ .PublishDate.Format "Jan 02, 2006" }}</li>
         </ul>
         <article class="content">
-          <img src="{{.Params.Image | absURL }}" alt="post-thumb" class="img-fluid rounded float-left mr-5 mb-4">
+          <img src="{{.Params.Image | absURL }}" alt="post-thumb" class="img-fluid rounded float-right mr-5 mb-4">
           {{.Content}}
         </article>
         <div>{{ template "_internal/disqus.html" . }}</div>
