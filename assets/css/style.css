@@ -39,39 +39,43 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1, .h1 {
-  font-size: 80px;
-}
-
-@media (max-width: 767px) {
-  h1, .h1 {
-    font-size: 55px;
-  }
-}
-
-h2, .h2 {
   font-size: 50px;
 }
 
 @media (max-width: 767px) {
+  h1, .h1 {
+    font-size: 35px;
+  }
+}
+
+h2, .h2 {
+  font-size: 25px;
+}
+
+@media (max-width: 767px) {
   h2, .h2 {
-    font-size: 45px;
+    font-size: 20px;
   }
 }
 
 h3, .h3 {
-  font-size: 40px;
-}
-
-h4, .h4 {
-  font-size: 30px;
-}
-
-h5, .h5 {
   font-size: 20px;
 }
 
+h4, .h4 {
+  font-size: 18px;
+}
+
+h5, .h5 {
+  font-size: 15px;
+}
+
 h6, .h6 {
-  font-size: 16px;
+  font-size: 13px;
+}
+
+.text-sidebar {
+  font-size: 14px !important;
 }
 
 /* Button style */
@@ -275,8 +279,8 @@ a.text-dark:hover {
 }
 
 .section {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .section-sm {
@@ -334,7 +338,7 @@ a.text-dark:hover {
 }
 
 .bg-secondary {
-  background: #fdefe6 !important;
+  background: #dfdfdf !important;
 }
 
 .text-primary {
