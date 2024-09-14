@@ -44,7 +44,7 @@ h1, .h1 {
 
 @media (max-width: 767px) {
   h1, .h1 {
-    font-size: 35px;
+    font-size: 28px;
   }
 }
 

@@ -9,5 +9,5 @@ features = ['bootstrap','responsive']
 min_version = "0.62.2"
 
 [author]
-  name = "Themefisher"
+  name = "Mike Dixson adapted from Themefisher"
   homepage = "https://themefisher.com/"
