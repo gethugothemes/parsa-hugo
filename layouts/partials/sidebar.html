@@ -10,7 +10,9 @@
     {{ range first 3 ( where site.Pages "Type" "post") }}
     <div class="media mb-4">
       <div class="post-thumb-sm mr-3">
-        <a href="{{ .Permalink }}"><img class="mr-3 post-thumb-sm" src="{{ .Params.Image | absURL }}"></a>
+        <a href="{{ .Permalink }}">
+          {{ partial "image.html" (dict "Src" .Params.Image "Alt" "Image" "Class" "mr-3 post-thumb-sm" ) }}
+        </a>
       </div>
       <div class="media-body">
         <ul class="list-inline d-flex justify-content-between mb-2">

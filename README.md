@@ -63,11 +63,14 @@
 # clone the repository
 git clone git@github.com:themefisher/parsa-hugo.git
 
-# cd in the project directory
-$ cd parsa-hugo/exampleSite/
+# setup project
+$ npm run project-setup
+
+# install dependency
+npm run install
 
 # Start local dev server
-$ hugo server --themesDir ../..
+$ npm run dev
 ```
 
 Or Check out [Full Documentation](https://docs.gethugothemes.com/parsa/?ref=github).

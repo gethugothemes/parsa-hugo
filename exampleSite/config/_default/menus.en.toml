@@ -1,0 +1,27 @@
+
+# navigation
+[[main]]
+name = "Homepage"
+url = ""
+weight = 1
+hasChildren = true
+
+[[main]]
+parent = "Homepage"
+name = "Homepage 1"
+url = "homepage/home-1/"
+
+[[main]]
+parent = "Homepage"
+name = "Homepage 2"
+url = "homepage/home-2/"
+
+[[main]]
+name = "About"
+url = "about/"
+weight = 2
+
+[[main]]
+name = "Contact"
+url = "contact/"
+weight = 3

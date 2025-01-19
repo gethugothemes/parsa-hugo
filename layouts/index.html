@@ -8,7 +8,7 @@
       {{ range (where site.RegularPages "Type" "featured")}}
       <div class="col-lg-3 col-sm-6 mb-2 mb-lg-0 px-1">
         <article class="card bg-dark text-center text-white border-0 rounded-0">
-          <img class="card-img rounded-0 img-fluid w-100" src="{{.Params.Image | absURL}}" alt="post-thumb">
+          {{ partial "image.html" (dict "Src" .Params.Image "Alt" "post-thumb" "Class" "card-img rounded-0 img-fluid w-100" ) }}
           <div class="card-img-overlay">
             <div class="card-content">
               <p class="text-uppercase">{{range .Params.Categories}}{{. | humanize}}{{end}}</p>
@@ -42,7 +42,7 @@
         </ul>
       </div>
       <div class="col-lg-6 text-right">
-        <img class="img-fluid" src="{{site.Params.author_image | absURL}}" alt="banner-image">
+        {{ partial "image.html" (dict "Src" site.Params.author_image "Alt" "banner-image" "Class" "img-fluid" ) }}
       </div>
     </div>
   </div>
@@ -66,7 +66,7 @@
       {{ range $paginator.Pages }}
       <div class="col-lg-4 col-sm-6 mb-5">
         <article class="text-center">
-          <img class="img-fluid mb-4" src="{{.Params.Image | absURL }}" alt="post-thumb">
+          {{ partial "image.html" (dict "Src" .Params.Image "Alt" "post-thumb" "Class" "img-fluid mb-4" ) }}
           <p class="text-uppercase mb-2">{{range .Params.Categories}}{{. | humanize}}{{end}}</p>
           <h4 class="title-border"><a class="text-dark" href="{{.Permalink}}">{{.Title}}</a></h4>
           <p>{{.Summary}}</p>
@@ -84,7 +84,7 @@
         <article data-file="{{.Permalink}}" data-target="article"
           class="article-full-width {{if not (modBool $i 2)}} article-right {{ end }}">
           <div class="post-image">
-            <img class="img-fluid" src="{{ .Params.Image | absURL }}" alt="post-thumb">
+            {{ partial "image.html" (dict "Src" .Params.Image "Alt" "post-thumb" "Class" "img-fluid" ) }}
           </div>
           <div class="post-content">
             <ul class="list-inline d-flex justify-content-between border-bottom post-meta pb-2 mb-4">
