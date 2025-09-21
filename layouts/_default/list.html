@@ -26,7 +26,7 @@
               {{ partial "image.html" (dict "Src" .Params.Image "Alt" "post-thumb" "Class" "img-fluid mb-4" ) }}
               <p class="text-uppercase mb-2">{{ .Params.Categories }}</p>
               <h4 class="title-border"><a class="text-dark" href="{{.Permalink}}">{{.Title}}</a></h4>
-              <p>{{ .Summary }}</p>
+              <p>{{.Summary | strings.Truncate site.Params.summaryLength}}</p>
               <a href="{{.Permalink}}" class="btn btn-transparent">read more</a>
             </article>
           </div>

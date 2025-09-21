@@ -69,7 +69,7 @@
           {{ partial "image.html" (dict "Src" .Params.Image "Alt" "post-thumb" "Class" "img-fluid mb-4" ) }}
           <p class="text-uppercase mb-2">{{range .Params.Categories}}{{. | humanize}}{{end}}</p>
           <h4 class="title-border"><a class="text-dark" href="{{.Permalink}}">{{.Title}}</a></h4>
-          <p>{{.Summary}}</p>
+          <p>{{.Summary | strings.Truncate site.Params.summaryLength}}</p>
           <a href="{{.Permalink}}" class="btn btn-transparent">read more</a>
         </article>
       </div>
@@ -92,7 +92,7 @@
               <li class="list-inline-item"><i class="ti-alarm-clock mr-2"></i><span class="eta"></span> read</li>
             </ul>
             <h4 class="mb-4"><a href="{{.Permalink}}" class="text-dark">{{ .Title }}</a></h4>
-            <p class="mb-0 post-summary">{{.Summary }}</p>
+            <p class="mb-0 post-summary">{{.Summary | strings.Truncate site.Params.summaryLength}}</p>
             <a class="btn btn-transparent mb-4" href="{{.Permalink}}">Continue...</a>
           </div>
         </article>

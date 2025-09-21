@@ -3,7 +3,7 @@ baseurl = "https://demo.gethugothemes.com/parsa/site/"
 languageCode = "en-us"
 title = "Parsa Hugo | Personal Blog Template"
 theme = "parsa-hugo"
-summaryLength = "10"
+
 pagination.pagerSize = 6
 # google analytics
 googleAnalytics = "" # example : UA-123-45
@@ -50,6 +50,7 @@ link = "plugins/search/search.js"
 
 # deult parameter
 [params]
+summaryLength = 100
 logo = "images/logo.png"
 home = "Home"
 # theme layout ( two layout is available, "1" and "2" )
