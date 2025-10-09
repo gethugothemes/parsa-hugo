@@ -1,5 +1,5 @@
 # default config
-baseurl = "https://demo.gethugothemes.com/parsa/site/"
+baseurl = "/"
 languageCode = "en-us"
 title = "Parsa Hugo | Personal Blog Template"
 theme = "parsa-hugo"
