@@ -26,7 +26,7 @@
 ---
 
 <p align="center">
-<img src="https://demo.gethugothemes.com/thumbnails/parsa.png" alt="screenshot" width="100%">
+<img src="https://assets.teamosis.com/thumbs/parsa.png" alt="screenshot" width="100%">
 </p>
 
 ---
@@ -73,12 +73,19 @@ $ npm run dev
 Or Check out [Full Documentation](https://docs.gethugothemes.com/parsa/?ref=github).
 
 
-## ⚙️Deployment and hosting
+<!-- edit with sitepins -->
 
-[![Deploy to
-Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/themefisher/parsa-hugo)
+## 📝 Edit Content with CMS
 
-Follow the steps.
+This template comes pre-configured with [**Sitepins**](https://sitepins.com), a Git-based Headless CMS designed for seamless content management. You can update your website’s text, images, and configuration without touching a single line of code.
+
+**How to get started:**
+
+Click the Edit with Sitepins button below and follow the on-screen instructions to start editing your content visually.
+
+  <a target="_blank" href="https://app.sitepins.com/new/clone?name=Parsa%20Hugo&repository=https://github.com/gethugothemes/parsa-hugo/">
+    <img src="https://sitepins.com/button.svg" alt="Edit with Sitepins">
+  </a>
 
 <!-- reporting issue -->
 ## 🐞Reporting Issues
@@ -132,6 +139,6 @@ If you need to customize the theme or complete website development from scratch,
 <!-- premium themes -->
 ## 💎Premium Themes By Us
 
-| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.png?)](https://gethugothemes.com/bundle/?utm_source=parsa_github&utm_medium=referral&utm_campaign=github_theme_readme) | [![Reader](https://demo.gethugothemes.com/thumbnails/reader.png)](https://gethugothemes.com/products/reader/) | [![logbook](https://demo.gethugothemes.com/thumbnails/logbook.png)](https://gethugothemes.com/products/logbook/) |
+| [![Mega-Bundle-HUGO](https://assets.teamosis.com/thumbs/bundle.png?)](https://gethugothemes.com/bundle/?utm_source=parsa_github&utm_medium=referral&utm_campaign=github_theme_readme) | [![Reader](https://assets.teamosis.com/thumbs/reader.png)](https://gethugothemes.com/products/reader/) | [![logbook](https://assets.teamosis.com/thumbs/logbook.png)](https://gethugothemes.com/products/logbook/) |
 |:---:|:---:|:---:|
-| **Get 55+ Premium Hugo Themes Bundle** | **Reader** | **Logbook** |
+| **Get 68+ Premium Hugo Themes Bundle** | **Reader** | **Logbook** |
