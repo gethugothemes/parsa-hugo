@@ -1,7 +1,7 @@
 <h1 align=center>Parsa Hugo</h1>
 
 <p align=center>Parsa is a gorgeous blog theme that is ideal for representing your personal blog website.  </p>
-<h2 align="center"> <a target="_blank" href="https://demo.gethugothemes.com/parsa" rel="nofollow">👀Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fdemo.gethugothemes.com%2Fparsa%2Fsite%2F&form_factor=desktopF">Page Speed (91%)🚀</a></h2>
+<h2 align="center"> <a target="_blank" href="https://parsa-hugo-site.vercel.app/" rel="nofollow">👀Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/analysis/https-parsa-hugo-site-vercel-app/a8c8jolt82?form_factor=desktop">Page Speed (91%)🚀</a></h2>
 
 
 
