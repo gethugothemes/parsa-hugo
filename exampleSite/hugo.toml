@@ -1,6 +1,6 @@
 # default config
 baseurl = "https://demo.gethugothemes.com/parsa/site/"
-languageCode = "en-us"
+locale = "en-us"
 title = "Parsa Hugo | Personal Blog Template"
 theme = "parsa-hugo"
 
@@ -83,6 +83,12 @@ access_token = "IGQVJYeUk4YWNIY1h4OWZANeS1wRHZARdjJ5QmdueXN2RFR6NF9iYUtfcGp1Nmpx
 [params.cookies]
 enable = true
 expire_days = 2
+
+# open remark comments
+[params.open_remark]
+enable = true
+site_key = "cmqnb3wd5000104kww7862ku4" # your site key from the OpenRemark dashboard
+embed_url = "https://open-remark.zeon.studio/embed.js"
 
 # social site
 [[params.social]]

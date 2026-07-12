@@ -4,7 +4,6 @@
 name = "Homepage"
 url = ""
 weight = 1
-hasChildren = true
 
 [[main]]
 parent = "Homepage"
